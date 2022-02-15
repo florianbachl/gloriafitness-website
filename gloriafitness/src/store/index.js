@@ -4,8 +4,6 @@ import { signingin } from '@/firestore/auth';
 import { signingout } from '@/firestore/auth';
 import { isLoggedIn } from '@/firestore/auth';
 import { blogentries } from './modules/blogentries';
-import { logEvent } from "firebase/analytics";
-import { analytics } from '@/firestore/config';
 
 
 
@@ -29,12 +27,12 @@ const cookieArray = {
     },
   ],
   nonessential: [
-    {
-      name: "Google Analytics",
-      description: "Google Analytics wird verwendet, um Nutzer auf Webseiten zu folgen. Die Absicht ist, Anzeigen auszuspielen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind. ",
-      expiry: "12m",
-      allowed: true,
-    },
+    //{
+    //  name: "Google Analytics",
+    //  description: "Google Analytics wird verwendet, um Nutzer auf Webseiten zu folgen. Die Absicht ist, Anzeigen auszuspielen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind. ",
+    //  expiry: "12m",
+    //  allowed: true,
+    //},
   ],
 }
 
@@ -48,7 +46,6 @@ export const store = createStore({
     return {
       user: null,
       cookiesaccepted: false,
-      analytics: analytics,
       cookieArray: JSON.parse(JSON.stringify(cookieArray)),
       popup: {
         name: null,
@@ -60,7 +57,6 @@ export const store = createStore({
       isPopupActive: false,
       submitting: false,
       isLoading: false,
-      whitelogobool: false,
       isexpanded: false
     };
   },
@@ -68,14 +64,8 @@ export const store = createStore({
     submit(state) {
       state.submitting = true
     },
-    logAnalyticsEvent(state, payload){
-      logEvent(state.analytics, payload);
-    },
     setExpanded(state, payload) {
       state.isexpanded = payload
-    },
-    setLogoWhite(state, payload) {
-      state.whitelogobool = payload
     },
     setLoading(state, payload) {
       state.isLoading = payload
@@ -128,9 +118,6 @@ export const store = createStore({
     getUser(state) {
       return state.user;
     },
-    isLogoWhite(state) {
-      return state.whitelogobool;
-    },
     isExpanded(state) {
       return state.isexpanded;
     },
@@ -170,14 +157,8 @@ export const store = createStore({
     async setLoading(context, payload) {
       await context.commit('setLoading', payload);
     },
-    async logAnalyticsEvent(context, payload){
-      await context.commit('logAnalyticsEvent', payload);
-    },
     async setPopup(context, payload) {
       await context.commit('setPopup', payload);
-    },
-    async setLogoWhite(context, payload) {
-      await context.commit('setLogoWhite', payload);
     },
     async setExpanded(context, payload) {
       await context.commit('setExpanded', payload);
