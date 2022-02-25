@@ -5,6 +5,7 @@ import login from '@/views/login'
 import contact from '@/views/contact'
 import legal from '@/views/legal'
 import dataprotection from '@/views/dataprotection'
+import home from '@/views/home'
 
 
 import { store } from '@/store/index'
@@ -21,6 +22,11 @@ async function requireAuth(to, from, next) {
 }
 
 const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: home ,
+  },
   {
     path: '/contact',
     name: 'contact',

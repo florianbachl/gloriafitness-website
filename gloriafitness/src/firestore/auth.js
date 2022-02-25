@@ -1,14 +1,15 @@
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
 
 export const auth = getAuth()
+const user = auth.currentUser;
 
-export async function signingin (email, password) {
+export async function signingin(email, password) {
     return await signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             //console.log("I am in signing in")
             //console.log(userCredential.user)
             return userCredential.user;
-            
+
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -30,13 +31,11 @@ export async function signingout() {
 }
 
 export async function isLoggedIn() {
-    onAuthStateChanged(auth, (user) => {
 
-        if (user) {
-            return true
-        } else {
+    if (user) {
+        return true
+    } else {
+        return false
+    }
 
-            return false
-        }
-    });
 }

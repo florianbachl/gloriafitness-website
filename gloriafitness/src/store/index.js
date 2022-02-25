@@ -104,9 +104,10 @@ export const store = createStore({
         })
 
     },
-    signout() {
-
-      signingout()
+    signout(state) {
+      
+      signingout();
+      state.user = null;
     },
     resetCookies(state){
       console.log(cookieArray)
@@ -127,8 +128,9 @@ export const store = createStore({
     isSubmitting(state) {
       return state.submitting
     },
-    isLoggedIn() {
-      return isLoggedIn()
+    async isLoggedIn() {
+      let result = await isLoggedIn().then(result => { return result}) 
+      return result
     },
     getPopup(state) {
       return state.popup
@@ -151,6 +153,9 @@ export const store = createStore({
     async signIn(context, payload) {
       await context.commit('signin', payload);
     },
+    async signOut(context) {
+      await context.commit('signout');
+    },
     async submit(context) {
       await context.commit('submit');
     },
@@ -172,6 +177,7 @@ export const store = createStore({
     async initCookies(context) {
       await context.commit('initCookies');
     },
+    
     async resetCookies(context) {
       await context.commit('resetCookies');
     },
@@ -225,16 +231,10 @@ export const store = createStore({
       return temp
     },
     async retrieveEntries(context, payload) {
+      console.log(payload)
       let val = await retrieveCollection({
         collection: payload.collection,
         conditions: payload.conditions
-      }).then(async function (response) {
-        let temp = []
-        temp = await context.dispatch('getChildren', { payload: payload, response: response.docs });
-        if (payload.setFunction) {
-          context.commit(payload.setFunction, temp);
-        }
-        return temp
       })
       return val
     },
@@ -242,11 +242,8 @@ export const store = createStore({
       let val = await retrieveDoc({
         collection: payload.collection,
         id: payload.id
-      }).then(async function (response) {
-        let temp = await context.dispatch('getChildren', { payload: payload, response: [response], singleentry: true });
-        return temp
       })
-      return val
+      return val.data()
     },
     async createEntry(context, payload) {
       let id = payload.object.id
