@@ -1,62 +1,60 @@
 import { createWebHistory, createRouter } from "vue-router";
 
-import dashboard from '@/views/dashboard'
-import login from '@/views/login'
-import contact from '@/views/contact'
-import legal from '@/views/legal'
-import dataprotection from '@/views/dataprotection'
-import home from '@/views/home'
+import landingPage from "@/views/landingPage";
+import adminLogin from "@/views/adminLogin";
+import contactForm from "@/views/contactForm";
+import legalAndRights from "@/views/legalAndRights";
+import dataProtection from "@/views/dataProtection";
+import adminDashboard from "@/views/adminDashboard";
 
-
-import { store } from '@/store/index'
+import { store } from "@/store/index";
 
 async function requireAuth(to, from, next) {
-    if (await !store.getters.getUser) {
-       // console.log("Not True?")
-        next({
-            path: "login"
-        })
-    } else {
-        next();
-    }
+  if (await !store.getters.getUser) {
+    // console.log("Not True?")
+    next({
+      path: "login",
+    });
+  } else {
+    next();
+  }
 }
 
 const routes = [
   {
-    path: '/',
-    name: 'home',
-    component: home ,
+    path: "/",
+    name: "home",
+    component: landingPage,
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: contact ,
+    path: "/contact",
+    name: "contact",
+    component: contactForm,
   },
   {
-    path: '/login',
-    name: 'login',
-    component: login ,
+    path: "/login",
+    name: "login",
+    component: adminLogin,
   },
   {
-    path: '/dashboard',
-    name: 'dashboard',
-    component: dashboard ,
+    path: "/dashboard",
+    name: "dashboard",
+    component: adminDashboard,
     beforeEnter: requireAuth,
   },
   {
-    path: '/legal',
-    name: 'legal',
-    component: legal ,
+    path: "/legal",
+    name: "legal",
+    component: legalAndRights,
   },
   {
-    path: '/dataprotection',
-    name: 'dataprotection',
-    component: dataprotection ,
+    path: "/dataprotection",
+    name: "dataprotection",
+    component: dataProtection,
   },
-  ]
+];
 
-  
 export const router = createRouter({
-    history: createWebHistory(),
-    routes,
-  });
+  history: createWebHistory(),
+  routes,
+});

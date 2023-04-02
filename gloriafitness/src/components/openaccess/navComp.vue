@@ -14,8 +14,7 @@
         data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -52,41 +51,40 @@
 </template>
 
 <script>
-export default {
-  name: "nav",
-  data() {
-    return {};
-  },
-  created() {
-  },
-  components: {},
-  computed: {
-    isexpanded() {
-      return this.$store.getters.isExpanded;
+  export default {
+    name: "navComp",
+    data() {
+      return {};
     },
-    user() {
-      return this.$store.getters.getUser;
+    created() {},
+    components: {},
+    computed: {
+      isexpanded() {
+        return this.$store.getters.isExpanded;
+      },
+      user() {
+        return this.$store.getters.getUser;
+      },
     },
-  },
-  watch: {
-    user() {
-      console.log(this.user)
+    watch: {
+      user() {
+        console.log(this.user);
+      },
     },
-  },
-  methods: {
-    setExpanded(payload) {
-      this.$store.dispatch("setExpanded", payload);
+    methods: {
+      setExpanded(payload) {
+        this.$store.dispatch("setExpanded", payload);
+      },
+      signout() {
+        this.$store.dispatch("signOut");
+        this.$router.push("/");
+      },
     },
-    signout() {
-      this.$store.dispatch("signOut");
-      this.$router.push("/");
-    },
-  },
-};
+  };
 </script>
 
 <style scoped>
-.nav-link {
-  text-decoration: none;
-}
+  .nav-link {
+    text-decoration: none;
+  }
 </style>

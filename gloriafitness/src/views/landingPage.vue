@@ -3,20 +3,13 @@
     <header>
       <div class="container">
         <div
-          class="
-            d-flex
-            flex-column-reverse flex-md-row
-            justify-content-center
-            align-items-center
-          "
-        >
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center">
           <div class="col-12 col-md-6 pt-5 p-md-1 p-lg-3">
             <img
               :src="require('@/assets/Bunt_dicker.png')"
               alt="logo"
               id="logo-head-section"
-              class="img-fluid"
-            />
+              class="img-fluid" />
             <div class="my-4">
               <h1>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h1>
               <p class="lead mt-4">
@@ -31,8 +24,7 @@
             <img
               :src="require('@/assets/header2.png')"
               alt="headerpic"
-              class="img-fluid"
-            />
+              class="img-fluid" />
           </div>
         </div>
       </div>
@@ -40,13 +32,7 @@
     <section>
       <div class="container">
         <div
-          class="
-            d-flex
-            flex-column flex-md-row
-            justify-content-center
-            align-items-center
-          "
-        >
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
         </div>
       </div>
@@ -54,19 +40,12 @@
     <section>
       <div class="container">
         <div
-          class="
-            d-flex
-            flex-column flex-md-row
-            justify-content-center
-            align-items-center
-          "
-        >
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <div class="col-12 col-md-6 p-lg-5">
             <img
               :src="require('@/assets/headerimg.jpg')"
               alt="headerpic"
-              class="img-fluid"
-            />
+              class="img-fluid" />
           </div>
           <div class="col-12 col-md-6 py-4 p-md-5">
             <div class="mb-4">
@@ -86,14 +65,7 @@
     <section>
       <div class="container">
         <div
-          class="
-            d-flex
-            flex-column-reverse flex-md-row
-            justify-content-center
-            align-items-center
-            mb-md-5
-          "
-        >
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center mb-md-5">
           <div class="col-12 col-md-6 py-4 p-md-5">
             <div class="mb-4">
               <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
@@ -110,8 +82,7 @@
             <img
               :src="require('@/assets/headerimg.jpg')"
               alt="headerpic"
-              class="img-fluid"
-            />
+              class="img-fluid" />
           </div>
         </div>
       </div>
@@ -127,8 +98,7 @@
               :src="require('@/assets/Bunt_dicker.png')"
               alt="logo"
               id="logo-head-section"
-              class="img-fluid"
-            />
+              class="img-fluid" />
             <div class="my-4">
               <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
               <p class="lead mt-4">
@@ -141,8 +111,7 @@
               :src="require('@/assets/Bunt_dicker.png')"
               alt="logo"
               id="logo-head-section"
-              class="img-fluid"
-            />
+              class="img-fluid" />
             <div class="my-4">
               <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
               <p class="lead mt-4">
@@ -155,8 +124,7 @@
               :src="require('@/assets/Bunt_dicker.png')"
               alt="logo"
               id="logo-head-section"
-              class="img-fluid"
-            />
+              class="img-fluid" />
             <div class="my-4">
               <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
               <p class="lead mt-4">
@@ -177,28 +145,23 @@
             <div class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item">
               <h2 class="my-5 fw-700">Trainingsplan</h2>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
                 </p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
                 </p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
-                <p class="px-1">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
-                </p>
+                <p class="px-1">Lorem ipsum dolor sit amet,</p>
               </div>
               <div class="text-center m-4">
                 <router-link to="/contact"
@@ -213,36 +176,23 @@
           </div>
           <div class="col-12 col-md-4">
             <div
-              class="
-                py-3
-                pt-5
-                px-4
-                mx-2
-                my-4 my-md-5
-                package-item package-item-recommend
-              "
-            >
+              class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item package-item-recommend">
               <div class="recommended">Empfehlung</div>
               <h2 class="my-5 fw-700">Trainingsplan</h2>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
                 </p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
-                <p class="px-1">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr
-                </p>
+                <p class="px-1">, consetetur sadipscing elitr</p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -263,24 +213,21 @@
             <div class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item">
               <h2 class="my-5 fw-700">Trainingsplan</h2>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
                 </p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
                 </p>
               </div>
               <div
-                class="d-flex column justify-content-start align-items-start"
-              >
+                class="d-flex column justify-content-start align-items-start">
                 <span class="material-icons">check_circle</span>
                 <p class="px-1">
                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr
@@ -303,14 +250,7 @@
     <section>
       <div class="container">
         <div
-          class="
-            d-flex
-            flex-column-reverse flex-md-row
-            justify-content-center
-            align-items-center
-            mb-md-5
-          "
-        >
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center mb-md-5">
           <div class="col-12 col-md-8 py-4 p-md-5">
             <div class="mb-4">
               <h2>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h2>
@@ -330,8 +270,7 @@
             <img
               :src="require('@/assets/aboutme.png')"
               alt="aboutme"
-              class="img-fluid"
-            />
+              class="img-fluid" />
           </div>
         </div>
       </div>
@@ -344,11 +283,10 @@
         <div class="question py-3" v-for="q in questions" :key="q.question">
           <div
             class="d-flex column justify-content-between align-items-center clickable"
-            @click="q.showdesc = !q.showdesc"
-          >
+            @click="q.showdesc = !q.showdesc">
             <h3>{{ q.title }}</h3>
             <span
-              class="material-icons  faq-icon"
+              class="material-icons faq-icon"
               :class="{ rotate: q.showdesc }"
               >add</span
             >
@@ -365,86 +303,84 @@
 </template>
 
 <script>
-export default {
-  name: "home",
-  data() {
-    return {
-      questions: [
-        {
-          title: "sbsb",
-          desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
-          showdesc: false,
-        },
-        {
-          title: "sbsb",
-          desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
-          showdesc: false,
-        },
-        {
-          title: "sbsb",
-          desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
-          showdesc: false,
-        },
-      ],
-    };
-  },
-  computed: {},
-  watch: {},
-  methods: {},
-};
+  export default {
+    name: "landingPage",
+    data() {
+      return {
+        questions: [
+          {
+            title: "sbsb",
+            desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
+            showdesc: false,
+          },
+          {
+            title: "sbsb",
+            desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
+            showdesc: false,
+          },
+          {
+            title: "sbsb",
+            desc: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat empor invidun sdfge, Lorem ipsum dolor sit amet,",
+            showdesc: false,
+          },
+        ],
+      };
+    },
+    computed: {},
+    watch: {},
+    methods: {},
+  };
 </script>
 <style scoped>
-#logo-head-section {
-  width: 150px;
-}
+  #logo-head-section {
+    width: 150px;
+  }
 
+  .package-item {
+    border: 2px solid #353535;
+    position: relative;
+    height: auto;
+    border-radius: 5px;
+  }
 
+  .package-item-recommend {
+    border: 2px solid #353535;
+    background-color: white;
+  }
+  .inner {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    position: absolute;
 
-.package-item {
-  border: 2px solid #353535;
-  position: relative;
-  height: auto;
-  border-radius: 5px;
-}
+    border-radius: 5px;
+    bottom: -25px;
+    right: -20px;
+    z-index: -1;
+  }
+  .package-item-recommend .inner {
+    background-color: #dee6e7;
+  }
 
-.package-item-recommend {
-  border: 2px solid #353535;
-  background-color: white;
-}
-.inner {
-  width: 100%;
-  height: 100%;
-  background-color: #f8f8f8;
-  position: absolute;
+  .recommended {
+    position: absolute;
+    background-color: #0f70b7;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    top: 0;
+    left: 0;
+    border-radius: 2px;
+  }
 
-  border-radius: 5px;
-  bottom: -25px;
-  right: -20px;
-  z-index: -1;
-}
-.package-item-recommend .inner {
-  background-color: #dee6e7;
-}
+  .faq-icon {
+    transition: all 0.2s;
+  }
 
-.recommended {
-  position: absolute;
-  background-color: #0f70b7;
-  width: 100%;
-  padding: 1em;
-  text-align: center;
-  font-weight: 700;
-  font-size: 20px;
-  color: white;
-  top: 0;
-  left: 0;
-  border-radius: 2px;
-}
-
-.faq-icon {
-  transition: all 0.2s;
-}
-
-.rotate {
-  transform: rotate(45deg);
-}
+  .rotate {
+    transform: rotate(45deg);
+  }
 </style>
