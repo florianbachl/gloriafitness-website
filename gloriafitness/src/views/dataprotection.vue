@@ -41,7 +41,7 @@
 
     <ul>
       <li>
-        Webhosting (Google Hosting) zur Speicherung von Daten, zur Ausführung
+        Webhosting (Google Firebase) zur Speicherung von Daten, zur Ausführung
         der Website
       </li>
       <li>
@@ -155,11 +155,11 @@
 
     <p>
       Kontaktieren Sie uns:<br />
-      Florian Bachl Software & Webdesign <br />
+      Gloria Jeschko <br />
 
-      hello@florianbachl.at<br />
+      gloria.victoria.jeschko@gmail.com<br />
 
-      06506779393<br />
+      +43680 2188909<br />
     </p>
   </div>
 </template>

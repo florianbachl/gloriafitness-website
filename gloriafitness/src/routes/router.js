@@ -43,12 +43,12 @@ const routes = [
     beforeEnter: requireAuth,
   },
   {
-    path: "/legal",
+    path: "/impressum",
     name: "legal",
     component: legalAndRights,
   },
   {
-    path: "/dataprotection",
+    path: "/datenschutz",
     name: "dataprotection",
     component: dataProtection,
   },

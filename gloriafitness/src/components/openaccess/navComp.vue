@@ -10,42 +10,50 @@
       <button
         class="navbar-toggler"
         type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <router-link class="nav-item nav-link" to="/#section"
-            >Section1</router-link
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <router-link class="nav-item nav-link" to="/#section"
+              >Section1</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-item nav-link" to="/#section"
+              >Section1</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-item nav-link" to="/#section"
+              >Section1</router-link
+            >
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-item nav-link" to="/#section"
+              >Section1</router-link
+            >
+          </li>
+        </ul>
+        <div v-if="user">
+          <router-link to="/dashboard" class="link-primary p-2 clickable"
+            >Dashboard</router-link
           >
-          <router-link class="nav-item nav-link" to="/#section"
-            >Section2</router-link
-          >
-          <router-link class="nav-item nav-link" to="/#section"
-            >Section3</router-link
-          >
-          <router-link class="nav-item nav-link" to="/contact"
-            >Kontakt</router-link
-          >
+          <a class="link-primary p-2 clickable" @click="signout()">Logout</a>
         </div>
-      </div>
-      <div v-if="user">
-        <router-link to="/dashboard" class="link-primary p-2 clickable"
-          >Dashboard</router-link
+        <span v-else
+          ><router-link to="/contact"
+            ><button type="button" class="btn btn-outline-dark">
+              Kontaktieren
+            </button></router-link
+          ></span
         >
-        <a class="link-primary p-2 clickable" @click="signout()">Logout</a>
       </div>
-      <span v-else
-        ><router-link to="/contact"
-          ><button type="button" class="btn btn-outline-dark">
-            Kontaktieren
-          </button></router-link
-        ></span
-      >
     </div>
   </nav>
 </template>
@@ -86,5 +94,9 @@
 <style scoped>
   .nav-link {
     text-decoration: none;
+  }
+
+  .navbar-toggler {
+    border: none;
   }
 </style>

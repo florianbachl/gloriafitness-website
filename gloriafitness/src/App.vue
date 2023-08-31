@@ -42,6 +42,31 @@
     font-weight: 300;
     font-display: swap;
   }
+  .social-icon {
+    padding: 15px;
+    border-radius: 50%;
+
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    background-position: center center;
+  }
+
+  #twitter {
+    background-image: url("assets/logos/twitter.webp");
+  }
+
+  #facebook {
+    background-image: url("assets/logos/facebook.webp");
+  }
+
+  #linkedin {
+    background-image: url("assets/logos/linkedin.webp");
+  }
+
+  #instagram {
+    background-image: url("assets/logos/instagram.webp");
+  }
 
   section {
     padding: 3em 0;

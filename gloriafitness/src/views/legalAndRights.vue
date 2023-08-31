@@ -4,35 +4,36 @@
     <h2>Verantwortlich für den Inhalt dieser Website</h2>
     <br />
     <p>
-      Florian Bachl Social Media Marketing & Webdesign
+      Gloria Jeschko
       <br />
-      Besitzer: B.Sc. Florian Bachl
+      Besitzer: Gloria Jeschko B.Sc.
       <br />
-      Bäuerlegasse 18/33
+      Rebengasse 11
       <br />
-      1200 Wien
+      2333 Leopoldsorf bei Wien
       <br />
       Österreich
       <br />
-      Telefon: +43650 6779393
+      Telefon: +43680 2188909
       <br />
-      hello@florianbachl.at
+      getfit@gloriafitness.alt
       <br />
-      www.florianbachl.at
+      www.gloriafitness.at
     </p>
 
     <p>
       Anwendbares Recht: Gewo
       <br /><br />
-      Aufsichtsbehörde: Magistratisches Bezirksamt des 20. Bezirkes
+      Aufsichtsbehörde: Bezirkshauptmannschaft Bruck/Leitha
       <br /><br />
-      Wirtschaftskammer: WKO Wien / Fachgruppe Werbung & Marktkommunikation
+      Wirtschaftskammer: WKO Niederösterreich / Fachgruppe: Freizeit und
+      Sportbetriebe
       <br /><br />
       Info lt. EKG
       <br /><br />
       Bildverweis:
       <br />
-      Florian Bachl
+      Gloria Jeschko
       <br /><br />
       Texte, Bilder und Grafiken auf dieser Website dürfen nur mit
       ausdrücklicher Genehmigung des Eigentümers verwendet werden.
