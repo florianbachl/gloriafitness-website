@@ -4,7 +4,7 @@
       <div
         v-if="expanded && !accepted"
         id="cookie-popup"
-        class="fb fb-fd-c fb-ai-s fb-jc-sb">
+        class="d-flex row justify-content-start align-items-start">
         <span>
           <span class="material-icons clickable" @click="expanded = false"
             >close</span
@@ -53,7 +53,12 @@
           </div>
         </span>
 
-        <button class="pb" @click="accept()">Einstellungen akzeptieren</button>
+        <button
+          type="button"
+          class="btn btn-primary mt-2 mt-md-0"
+          @click="accept()">
+          Einstellungen akzeptieren
+        </button>
       </div>
     </transition>
     <transition name="slide-fade">
@@ -65,9 +70,17 @@
             essenziell, während andere uns helfen die Webseite und
             Werbemaßnahmen zu verbessern.
           </p>
-          <span class="fb fb-fd-r fb-ai-fs fb-jc-fe">
-            <button class="sb" @click="expanded = true">Anpassen</button>
-            <button class="pb" @click="accept()">
+          <span class="d-flex flex-column flex-md-row">
+            <button
+              type="button"
+              class="btn btn-outline-dark"
+              @click="expanded = true">
+              Anpassen
+            </button>
+            <button
+              type="button"
+              class="mx-md-2 mt-2 mt-md-0 btn btn-primary"
+              @click="accept()">
               Einstellungen akzeptieren
             </button>
           </span>
@@ -232,7 +245,7 @@
     bottom: 0;
 
     padding: 2em;
-    width: calc(100% - 4em);
+    width: calc(100%);
     z-index: 10000;
     background-color: white;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.03);

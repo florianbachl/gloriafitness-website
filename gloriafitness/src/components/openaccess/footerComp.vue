@@ -41,18 +41,21 @@
             <div class="col-md-4 mx-auto mb-md-0 mb-4">
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4 text-white">Kontakt</h6>
-              <p>
+              <!-- <p>
                 <router-link to="/contact" class="text-white"
                   >Kontaktformular</router-link
                 >
-              </p>
+              </p> -->
 
               <p class="text-white">
                 <i class="fas fa-envelope"></i>
-                getfit@gloriafitness.at
+                <a href="mailto:getfit@gloriafitness.at">
+                  getfit@gloriafitness.at</a
+                >
               </p>
               <p class="text-white">
-                <i class="fas fa-phone text-white"></i> +43 699 10994684
+                <i class="fas fa-phone text-white"></i>
+                <a href="tel:+4369910994684">+43 699 10994684</a>
               </p>
             </div>
             <div class="col-md-4 mx-auto mb-4">

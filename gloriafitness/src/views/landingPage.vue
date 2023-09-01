@@ -17,40 +17,55 @@
                 bis ins hohe Alter, … . Zusammen erreichen wir deine Ziele.
               </p>
             </div>
-            <router-link to="/contact">
+            <a href="#contact">
               <button type="button" class="btn btn-primary btn-lg mt-4">
                 Gemeinsam durchstarten
-              </button></router-link
+              </button></a
             >
           </div>
           <div class="col-12 col-md-6 p-lg-3">
             <img
-              :src="require('@/assets/banner6.png')"
-              alt="headerpic"
-              class="img-fluid" />
+              :src="require('@/assets/banner_full.jpeg')"
+              alt="headerpic "
+              class="img-fluid border-radius" />
           </div>
         </div>
       </div>
     </header>
-    <!-- <section class="bgdark text-white">
+    <section class="mb-5">
       <div class="container">
         <div
-          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
-          <h2>Gemeinsam mehr erreichen</h2>
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center"
+          id="quote">
+          <div class="col-12 px-md-0 col-md-2">
+            <img
+              :src="require('@/assets/closeup.jpg')"
+              alt="headerpic"
+              class="img-fluid quote-img" />
+          </div>
+          <h4 class="col-12 col-md-10 mt-4 mt-md-0">
+            "Ich möchte meinen Kunden zeigen, das Gesundheit nicht Verzicht
+            heißt. Du kannst sportlich sein, und trotzdem, oder vielleicht
+            gerade deshalb, das Leben in vollen Zügen genießen."
+          </h4>
         </div>
       </div>
-    </section> -->
-    <section>
+    </section>
+    <section
+      class="App__example o-vertical-spacing o-vertical-spacing--l"
+      id="personal-coaching">
       <div class="container">
-        <div
-          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+        <ParallaxContainer
+          class="d-flex flex-column flex-md-row justify-content-start align-items-start">
           <div class="col-12 col-md-5 px-lg-5">
             <img
               :src="require('@/assets/model.jpeg')"
               alt="headerpic"
-              class="img-fluid" />
+              class="img-fluid border-radius" />
           </div>
-          <div class="col-12 col-md-7 py-4 px-md-5">
+          <ParallaxElement
+            :factor="0.3"
+            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5">
             <div class="mb-4">
               <h2>Personal Coaching</h2>
               <p class="lead-2 mt-5 mb-5">
@@ -63,18 +78,40 @@
                 betten neune Routinen in deinen individuellen Alltag ein.
               </p>
             </div>
-            <router-link class="link-primary" to="/contact"
-              >Jetzt richtig trainineren lernen</router-link
+            <a class="link-primary" href="#contact"
+              >Jetzt richtig trainineren lernen</a
+            >
+          </ParallaxElement>
+          <div class="col-12 col-md-7 py-4 px-md-5 steps-for-mobile">
+            <div class="mb-4">
+              <h2>Personal Coaching</h2>
+              <p class="lead-2 mt-5 mb-5">
+                Ein gutes Personal Training ist für mich mehr als nur Kunden
+                durch ihr Training zu führen. Mein Ziel ist es, zusammen mit dir
+                deine Ziele und Wünsche auszuarbeiten und dich bei deiner Reise
+                langfristig zu unterstützen. Für unterschiedliche Problematiken
+                und Zielsetzungen gibt es unterschiedliche Ansatzpunkte, auf
+                welche im beim Training achte. Zusammen erarbeiten wir diese, um
+                betten neune Routinen in deinen individuellen Alltag ein.
+              </p>
+            </div>
+            <a class="link-primary" href="#contact"
+              >Jetzt richtig trainineren lernen</a
             >
           </div>
-        </div>
+        </ParallaxContainer>
       </div>
     </section>
-    <section>
+
+    <section
+      id="workout-plan"
+      class="App__example o-vertical-spacing o-vertical-spacing--l">
       <div class="container">
-        <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center mb-md-5">
-          <div class="col-12 col-md-7 py-4 px-md-5">
+        <ParallaxContainer
+          class="d-flex flex-column-reverse flex-md-row justify-content-start align-items-start">
+          <ParallaxElement
+            :factor="0.4"
+            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5">
             <div class="mb-4">
               <h2>Trainingsplan</h2>
               <p class="lead-2 mt-5 mb-5">
@@ -86,26 +123,39 @@
                 Schritten zu adaptieren.
               </p>
             </div>
-            <router-link class="link-primary" to="/contact"
-              >Jetzt Ziele erreichen</router-link
-            >
+            <a class="link-primary" href="#contact">Jetzt Ziele erreichen</a>
+          </ParallaxElement>
+          <div class="steps-for-mobile col-12 col-md-7 py-4 px-md-5">
+            <div class="mb-4">
+              <h2>Trainingsplan</h2>
+              <p class="lead-2 mt-5 mb-5">
+                Man muss nicht alles auf eigene Faust machen. Mit einem
+                Trainingsplan statte ich dich aus, um Trainingseinheiten auch
+                alleine durchführen zu können und weiterhin die Ziele im Auge zu
+                behalten. Einzelne Trainingseinheiten werden dokumentiert, um
+                Trainingsfortschritte zu erkennen und den Plan in weiteren
+                Schritten zu adaptieren.
+              </p>
+            </div>
+            <a class="link-primary" href="#contact">Jetzt Ziele erreichen</a>
           </div>
           <div class="col-12 col-md-5 px-lg-5">
             <img
               :src="require('@/assets/chest.jpeg')"
               alt="headerpic"
-              class="img-fluid" />
+              class="img-fluid border-radius" />
           </div>
-        </div>
+        </ParallaxContainer>
       </div>
     </section>
-    <section class="bggrey">
+
+    <section class="bglightblue2">
       <section>
         <div class="container col col-8-lg">
           <div class="row py-5 text-center">
             <h2>So läuft das Training ab</h2>
           </div>
-          <div class="row mt-5" id="steps-for-desktop">
+          <div class="row mt-5 steps-for-desktop">
             <div class="col-1">
               <div class="row">
                 <div class="col my-1"><hr /></div>
@@ -134,7 +184,7 @@
                   <div class="col-auto">
                     <div
                       class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center">
-                      <span class="material-icons material-icons-step-2"
+                      <span class="material-icons material-icons-step-1"
                         >fitness_center</span
                       >
                     </div>
@@ -149,7 +199,7 @@
                   <div class="col-auto">
                     <div
                       class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center">
-                      <span class="material-icons material-icons-step-4"
+                      <span class="material-icons material-icons-step-1"
                         >mood</span
                       >
                     </div>
@@ -162,8 +212,7 @@
             </div>
           </div>
           <div
-            class="d-flex flex-column align-items-start justify-content-start"
-            id="steps-for-mobile">
+            class="d-flex flex-column align-items-start justify-content-start steps-for-mobile">
             <div class="col row">
               <div
                 class="col-auto d-flex flex-column justify-content-center align-items-center">
@@ -185,7 +234,7 @@
                 class="col-auto d-flex flex-column justify-content-center align-items-center">
                 <div
                   class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center">
-                  <span class="material-icons material-icons-step-2"
+                  <span class="material-icons material-icons-step-1"
                     >fitness_center</span
                   >
                 </div>
@@ -201,7 +250,7 @@
                 class="col-auto d-flex flex-column justify-content-center align-items-center">
                 <div
                   class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center">
-                  <span class="material-icons material-icons-step-3">mood</span>
+                  <span class="material-icons material-icons-step-1">mood</span>
                 </div>
 
                 <div class="vl my-4"></div>
@@ -214,7 +263,7 @@
         </div>
       </section>
     </section>
-    <section>
+    <section id="pricing">
       <div class="container col col-8-lg">
         <div class="row py-5 text-center">
           <h2>Meine Pakete, auf dich zugeschnitten</h2>
@@ -222,27 +271,34 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <div class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item">
-              <h2 class="my-5 fw-700">Trainingsplan</h2>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">Trainingsplan für 8-12 Wochen</p>
+              <div class="package-header">
+                <div class="package-name mt-5">
+                  <h2 class="fw-700">TRAININGSPLAN</h2>
+                </div>
+                <h4 class="mb-5 fw-700 pc-t">210€</h4>
               </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">3 Trainingseinheiten mit mir</p>
-              </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">Online Trainingsplan und Trainingstagebuch</p>
+              <div class="package-points">
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">Trainingsplan für 8-12 Wochen</p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">3 Trainingseinheiten mit mir</p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">Online Trainingsplan und Trainingstagebuch</p>
+                </div>
               </div>
               <div class="text-center m-4">
-                <router-link to="/contact"
+                <a href="#contact"
                   ><button type="button" class="btn btn-outline-dark">
-                    Termin Anfragen
-                  </button></router-link
+                    Anfragen
+                  </button></a
                 >
               </div>
 
@@ -253,30 +309,37 @@
             <div
               class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item package-item-recommend">
               <div class="recommended">Empfehlung</div>
-              <h2 class="my-5 fw-700">Personal Coaching</h2>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">1:1 Betreuung</p>
+              <div class="package-header">
+                <div class="package-name mt-5">
+                  <h2 class="fw-700">PERSONAL COACHING</h2>
+                </div>
+                <h4 class="mb-5 fw-700 pc-t">ab 60€/Stunde</h4>
               </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">
-                  Bei dir zuhause (Wien und Stadtgrenze südlich von Wien),
-                  online oder im FitInn SCS
-                </p>
-              </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">Auch 3er, 5er oder 10er Block</p>
+              <div class="package-points">
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">1:1 Betreuung</p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">
+                    Bei dir zuhause (Wien und Stadtgrenze südlich von Wien),
+                    online oder im FitInn SCS
+                  </p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">Auch 3er, 5er oder 10er Block</p>
+                </div>
               </div>
               <div class="text-center m-4">
-                <router-link to="/contact"
+                <a href="#contact"
                   ><button type="button" class="btn btn-dark">
-                    Termin Anfragen
-                  </button></router-link
+                    Anfragen
+                  </button></a
                 >
               </div>
 
@@ -285,27 +348,39 @@
           </div>
           <div class="col-12 col-md-4">
             <div class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item">
-              <h2 class="my-5 fw-700">Trainingsplan</h2>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">1-2 Trainings pro Monat</p>
+              <div class="package-header">
+                <div class="package-name mt-5">
+                  <h2 class="fw-700">LANGFRISTIGE BETREUUNG</h2>
+                </div>
+
+                <h4 class="mb-5 fw-700 pc-t">ab 80€/Monat</h4>
               </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">Laufende Betreuung via Telefon und WhatsApp</p>
+
+              <div class="package-points">
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">1-2 Trainings pro Monat</p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">
+                    Laufende Betreuung via Telefon und WhatsApp
+                  </p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start">
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">Wöchentliche online Check-ups</p>
+                </div>
               </div>
-              <div
-                class="d-flex column justify-content-start align-items-start">
-                <span class="material-icons">check_circle</span>
-                <p class="px-1">Wöchentliche online Check-ups</p>
-              </div>
+
               <div class="text-center m-4">
-                <router-link to="/contact"
+                <a href="#contact"
                   ><button type="button" class="btn btn-outline-dark">
-                    Termin Anfragen
-                  </button></router-link
+                    Anfragen
+                  </button></a
                 >
               </div>
 
@@ -315,11 +390,11 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="about">
       <div class="container">
-        <div
+        <ParallaxContainer
           class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-start">
-          <div class="col-12 col-md-6 py-4 p-md-5">
+          <div class="col-12 col-md-7 py-4 p-md-5">
             <div class="mb-4">
               <h2>Hallo!</h2>
               <p class="lead-2 mt-4 mb-5">
@@ -359,24 +434,32 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-6 p-lg-5">
+          <ParallaxElement
+            :factor="0.2"
+            class="steps-for-desktop col-12 col-md-5 p-lg-5">
             <img
-              :src="require('@/assets/me3.png')"
+              :src="require('@/assets/me4.jpeg')"
               alt="aboutme"
-              class="img-fluid" />
+              class="img-fluid border-radius" />
+          </ParallaxElement>
+          <div class="steps-for-mobile col-12 col-md-5 p-lg-5">
+            <img
+              :src="require('@/assets/me4.jpeg')"
+              alt="aboutme"
+              class="img-fluid border-radius" />
           </div>
-        </div>
+        </ParallaxContainer>
       </div>
     </section>
-    <section class="bggrey">
+    <section class="bglightblue2">
       <div class="container">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center mb-md-5">
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center mb-md-5">
           <div class="col-12 col-md-5 px-lg-5">
             <img
               :src="require('@/assets/jump.jpeg')"
               alt="headerpic"
-              class="img-fluid" />
+              class="img-fluid border-radius" />
           </div>
           <div class="col-12 col-md-7 py-4 px-md-5">
             <div class="mb-4">
@@ -536,10 +619,10 @@
               </p>
             </div>
 
-            <router-link to="/contact"
+            <a href="#contact"
               ><button type="button" class="btn btn-primary">
                 Termin Anfragen
-              </button></router-link
+              </button></a
             >
           </div>
           <div class="col-12 col-md-6 px-lg-5">
@@ -551,7 +634,8 @@
         </div>
       </div>
     </section>
-    <section class="bggrey">
+
+    <section class="bglightblue2">
       <div class="container col col-8-lg mb-md-5">
         <div class="row py-5 text-center">
           <h2>FAQ</h2>
@@ -575,12 +659,66 @@
         </div>
       </div>
     </section>
+
+    <section class="" id="contact">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+          <div class="col-12 col-md-5 px-lg-5 imagediv">
+            <img
+              :src="require('@/assets/chilling.jpeg')"
+              alt="headerpic"
+              class="img-fluid border-radius" />
+          </div>
+          <div class="col-12 col-md-7 py-4 px-md-5 textdiv">
+            <div class="mb-4">
+              <h2>Gemeinsam erreichen wir deine Ziele</h2>
+              <p class="lead-2 mt-5 mb-5">
+                Für Terminanfragen melde dich gerne telfonisch, per Whatsapp,
+                Email oder dem Social Media Kanal deiner Wahl.
+              </p>
+
+              <h6 class="text-uppercase fw-bold mb-4">Kontakt</h6>
+
+              <p class="">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:getfit@gloriafitness.at">
+                  getfit@gloriafitness.at</a
+                >
+              </p>
+              <p class="">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+4369910994684">+43 699 10994684</a>
+              </p>
+
+              <h6 class="text-uppercase fw-bold mb-4">Social</h6>
+
+              <span class="d-flex flex-row justify-content-start">
+                <a
+                  href="https://www.instagram.com/_gloriafitness_/"
+                  target="_blank"
+                  rel="noopener"
+                  ><div
+                    class="social-icon bggrey clickable"
+                    id="instagram"
+                    role="img"
+                    aria-label="social-instagram"></div
+                ></a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
+  import ParallaxContainer from "../components/parallax/parallaxContainer.vue";
+  import ParallaxElement from "../components/parallax/parallaxItem.vue";
   export default {
     name: "landingPage",
+    components: { ParallaxContainer, ParallaxElement },
     data() {
       return {
         questions: [
@@ -642,12 +780,15 @@
     z-index: -1;
   }
   .package-item-recommend .inner {
-    background-color: #dee6e7;
+    background-color: #d3dce4;
   }
   .lightblue {
     background-color: #cae4fa38;
   }
 
+  .pc-t {
+    color: #0f70b7;
+  }
   .recommended {
     position: absolute;
     background-color: #0f70b7;
@@ -702,27 +843,24 @@
     font-size: 27px;
   }
   .material-icons-step-1 {
-    background: -moz-linear-gradient(top, #e0e1dd 0%, #b3c5b8 100%);
-    background: -webkit-linear-gradient(top, #e0e1dd 0%, #b3c5b8 100%);
-    background: linear-gradient(to bottom, #e0e1dd 0%, #b3c5b8 100%);
-  }
-
-  .material-icons-step-2 {
-    background: -moz-linear-gradient(top, #e0e1dd 0%, #86a893 100%);
-    background: -webkit-linear-gradient(top, #e0e1dd 0%, #86a893 100%);
-    background: linear-gradient(to bottom, #e0e1dd 0%, #86a893 100%);
-  }
-
-  .material-icons-step-3 {
-    background: -moz-linear-gradient(top, #e0e1dd 0%, #598b6e 100%);
-    background: -webkit-linear-gradient(top, #e0e1dd 0%, #598b6e 100%);
-    background: linear-gradient(to bottom, #e0e1dd 0%, #598b6e 100%);
-  }
-
-  .material-icons-step-4 {
-    background: -moz-linear-gradient(top, #fffb19 0%, #2c6e49 100%);
-    background: -webkit-linear-gradient(top, #fffb19 0%, #2c6e49 100%);
-    background: linear-gradient(to bottom, #fffb19 0%, #2c6e49 100%);
+    background: -moz-linear-gradient(
+      top,
+      #0f70b7 0%,
+      #0f70b7 50%,
+      #0b4772 100%
+    );
+    background: -webkit-linear-gradient(
+      top,
+      #0f70b7 0%,
+      #0f70b7 50%,
+      #0b4772 100%
+    );
+    background: linear-gradient(
+      to bottom,
+      #0f70b7 0%,
+      #0f70b7 50%,
+      #0b4772 100%
+    );
   }
 
   .achievement {
@@ -737,11 +875,11 @@
     top: 5em;
   }
 
-  #steps-for-mobile {
+  .steps-for-mobile {
     display: none !important;
   }
 
-  #steps-for-desktop {
+  .steps-for-desktop {
   }
 
   .vl {
@@ -757,8 +895,8 @@
     }
   }
 
-  @media only screen and (max-width: 590px) {
-    #steps-for-mobile {
+  @media only screen and (max-width: 600px) {
+    .steps-for-mobile {
       display: block !important;
     }
 
@@ -766,7 +904,7 @@
       max-width: 400px;
     }
 
-    #steps-for-desktop {
+    .steps-for-desktop {
       display: none;
     }
 
@@ -786,5 +924,77 @@
     margin-right: 15px;
     font-size: 20px;
     color: #0f70b7;
+  }
+
+  .border-wrapper {
+    box-shadow: 25px 25px 0px 0px #f8f8f8;
+    border: 2px solid #0f70b7;
+    position: relative; /* Set the positioning to relative */
+    border-radius: 5px;
+  }
+  .image-wrapper {
+    box-shadow: 25px 25px 0px 0px #f8f8f8;
+    border: 2px solid #0f70b7;
+    position: relative; /* Set the positioning to relative */
+    border-radius: 5px;
+  }
+  .image-wrapper::before {
+    border: 2px solid #0f70b7;
+    content: "";
+    position: absolute;
+    top: 23px; /* 40px from the top */
+    left: 23px; /* 40px from the left */
+    right: 0;
+    border-radius: 5px;
+    bottom: 0;
+  }
+
+  #quote {
+    border: 2px solid #353535;
+    box-shadow: 25px 25px 0px 0px #f6fbff;
+    position: relative; /* Set the positioning to relative */
+    border-radius: 5px;
+    padding: 30px 40px;
+  }
+
+  #quote::before {
+    content: "";
+    background-color: #f6fbff; /* Your desired background color */
+    position: absolute;
+    top: 23px; /* 40px from the top */
+    left: 23px; /* 40px from the left */
+    right: 0;
+    border-radius: 5px;
+    bottom: 0;
+    z-index: -1; /* Ensure the background is behind the content */
+  }
+
+  .quote-img {
+    padding: 0px 40px;
+    border-radius: 50%;
+  }
+
+  .border-radius {
+    border-radius: 5px;
+  }
+
+  .package-header {
+    height: 170px;
+  }
+
+  .package-name {
+    height: 95px;
+  }
+
+  .package-points {
+    height: 180px;
+  }
+
+  .bglightblue {
+    background-color: #f6fbff;
+  }
+
+  .bglightblue2 {
+    background-color: #edf0f55b;
   }
 </style>

@@ -20,24 +20,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link class="nav-item nav-link" to="/#section"
-              >Section1</router-link
+            <a class="nav-item nav-link" href="#personal-coaching"
+              >Personal Coaching</a
             >
           </li>
           <li class="nav-item">
-            <router-link class="nav-item nav-link" to="/#section"
-              >Section1</router-link
-            >
+            <a class="nav-item nav-link" href="#workout-plan">Trainingsplan</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-item nav-link" to="/#section"
-              >Section1</router-link
-            >
+            <a class="nav-item nav-link" href="#pricing">Pakete</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-item nav-link" to="/#section"
-              >Section1</router-link
-            >
+            <a class="nav-item nav-link" href="#about">Über mich</a>
           </li>
         </ul>
         <div v-if="user">
@@ -47,10 +41,10 @@
           <a class="link-primary p-2 clickable" @click="signout()">Logout</a>
         </div>
         <span v-else
-          ><router-link to="/contact"
+          ><a href="#contact"
             ><button type="button" class="btn btn-outline-dark">
               Kontaktieren
-            </button></router-link
+            </button></a
           ></span
         >
       </div>
