@@ -55,7 +55,7 @@
               </p>
               <p class="text-white">
                 <i class="fas fa-phone text-white"></i>
-                <a href="tel:+4369910994684">+43 699 10994684</a>
+                <a href="tel:+436802188909">+43680 2188909</a>
               </p>
             </div>
             <div class="col-md-4 mx-auto mb-4">

@@ -25,7 +25,7 @@
           </div>
           <div class="col-12 col-md-6 p-lg-3">
             <img
-              :src="require('@/assets/banner_full.jpeg')"
+              :src="require('@/assets/banner.jpg')"
               alt="headerpic "
               class="img-fluid border-radius" />
           </div>
@@ -59,7 +59,7 @@
           class="d-flex flex-column flex-md-row justify-content-start align-items-start">
           <div class="col-12 col-md-5 px-lg-5">
             <img
-              :src="require('@/assets/model.jpeg')"
+              :src="require('@/assets/model.jpg')"
               alt="headerpic"
               class="img-fluid border-radius" />
           </div>
@@ -74,8 +74,8 @@
                 deine Ziele und Wünsche auszuarbeiten und dich bei deiner Reise
                 langfristig zu unterstützen. Für unterschiedliche Problematiken
                 und Zielsetzungen gibt es unterschiedliche Ansatzpunkte, auf
-                welche im beim Training achte. Zusammen erarbeiten wir diese, um
-                betten neune Routinen in deinen individuellen Alltag ein.
+                welche ich beim Training achte. Zusammen erarbeiten wir diese,
+                und betten neue Routinen in deinen individuellen Alltag ein.
               </p>
             </div>
             <a class="link-primary" href="#contact"
@@ -91,8 +91,8 @@
                 deine Ziele und Wünsche auszuarbeiten und dich bei deiner Reise
                 langfristig zu unterstützen. Für unterschiedliche Problematiken
                 und Zielsetzungen gibt es unterschiedliche Ansatzpunkte, auf
-                welche im beim Training achte. Zusammen erarbeiten wir diese, um
-                betten neune Routinen in deinen individuellen Alltag ein.
+                welche ich beim Training achte. Zusammen erarbeiten wir diese,
+                und betten neue Routinen in deinen individuellen Alltag ein.
               </p>
             </div>
             <a class="link-primary" href="#contact"
@@ -141,7 +141,7 @@
           </div>
           <div class="col-12 col-md-5 px-lg-5">
             <img
-              :src="require('@/assets/chest.jpeg')"
+              :src="require('@/assets/chest.jpg')"
               alt="headerpic"
               class="img-fluid border-radius" />
           </div>
@@ -191,7 +191,7 @@
                   </div>
                   <div class="col"><hr /></div>
                 </div>
-                <h3 class="h5 my-3">Personalisiertes Paket Erhalten</h3>
+                <h3 class="h5 my-3">Personalisiertes Paket erhalten</h3>
               </div>
               <div class="col">
                 <div
@@ -242,7 +242,7 @@
                 <div class="vl my-4"></div>
               </div>
               <span class="col">
-                <h3 class="h5 my-3">Personalisiertes Paket Erhalten</h3>
+                <h3 class="h5 my-3">Personalisiertes Paket erhalten</h3>
               </span>
             </div>
             <div class="col row">
@@ -410,7 +410,7 @@
                 ausprobieren und lernen wollen. Von Einradfahren, Turnen,
                 Leichtathletik über Volleyball bis hin zu Klettern war alles
                 dabei.<br /><br />
-                Während meiner Schulzeit, ein Jahre vor meiner Matura, habe ich
+                Während meiner Schulzeit, ein Jahr vor meiner Matura, habe ich
                 mich entschieden, die Ausbildung zur Dipl. Fitness und
                 Personaltrainerin zu starten, welche ich 2017 abgeschlossen
                 habe. Nach Abschluss der Schule habe ich den Schritt gewagt und
@@ -423,9 +423,9 @@
                 Erfolg abgeschlossen. Aktuell befinde ich mich im Masterstudium
                 Trainingstherapie. <br /><br />Es ist mir wichtig, stets am
                 neuesten Stand der Wissenschaft zu sein, um meinen Kunden hohe
-                Qualität versprechen zu können. Um das optimale Rundum-Paket
-                bieten zu können, bilde ich mich ständig fort, aktuell befinde
-                ich mich in der Ausbildung zur Ernährungstrainerin.<br /><br />
+                Qualität bieten zu können. Um das optimale Rundum-Paket bieten
+                zu können, bilde ich mich ständig fort, aktuell befinde ich mich
+                in der Ausbildung zur Ernährungstrainerin.<br /><br />
                 Mein Ziel ist es, meine Kunden nicht nur zu trainieren, sondern
                 ihnen ein Verständnis dafür zu vermitteln, wie wichtig Bewegung
                 für Körper und Geist ist. Ich stehe an deiner Seite, um deine
@@ -438,13 +438,13 @@
             :factor="0.2"
             class="steps-for-desktop col-12 col-md-5 p-lg-5">
             <img
-              :src="require('@/assets/me4.jpeg')"
+              :src="require('@/assets/me.jpg')"
               alt="aboutme"
               class="img-fluid border-radius" />
           </ParallaxElement>
           <div class="steps-for-mobile col-12 col-md-5 p-lg-5">
             <img
-              :src="require('@/assets/me4.jpeg')"
+              :src="require('@/assets/me.jpg')"
               alt="aboutme"
               class="img-fluid border-radius" />
           </div>
@@ -457,7 +457,7 @@
           class="d-flex flex-column flex-md-row justify-content-center align-items-center mb-md-5">
           <div class="col-12 col-md-5 px-lg-5">
             <img
-              :src="require('@/assets/jump.jpeg')"
+              :src="require('@/assets/jump.jpg')"
               alt="headerpic"
               class="img-fluid border-radius" />
           </div>
@@ -535,8 +535,7 @@
                 <div class="col-sm d-flex flex-row align-items-start">
                   <span class="material-icons bullet-point">check_circle</span>
                   <p class="">
-                    Bist du noch im Fitnessstudio? Oder hast du noch kaum
-                    Erfahrung?
+                    Bist du neu im Fitnessstudio und hast noch kaum Erfahrung?
                   </p>
                 </div>
                 <div class="col-sm d-flex flex-row align-items-start">
@@ -566,8 +565,7 @@
                   <span class="material-icons bullet-point">check_circle</span>
                   <p class="">
                     Gibt es muskuläre Defizite, Verkürzungen oder
-                    Einschränkungen welche du endlich in Angriff nehmen
-                    möchtest?
+                    Einschränkungen, welche du in Angriff nehmen möchtest?
                   </p>
                 </div>
                 <div class="col-sm d-flex flex-row align-items-start">
@@ -611,7 +609,7 @@
                 Geht nicht - gibts bei mir nicht, wir erarbeiten zusammen eine
                 Lösung, welche für dich optimal ist. Jeder Mensch hat
                 unterschiedliche Voraussetzungen, Zielsetzungen und
-                Möglichkeiten - diese gehören zu berücksichtigen. Meine
+                Möglichkeiten - diese gehören berücksichtigt. Meine
                 Spezialgebiete sind Krafttraining, Gesundheitssport,
                 Gesundheitsförderung und Prävention vermeidbarer Krankheiten
                 durch Bewegung und Tipps zum Thema Ernährung. Warte nicht bis
@@ -627,7 +625,7 @@
           </div>
           <div class="col-12 col-md-6 px-lg-5">
             <img
-              :src="require('@/assets/chest2_edited.png')"
+              :src="require('@/assets/chest_comp.png')"
               alt="headerpic"
               class="img-fluid" />
           </div>
@@ -666,7 +664,7 @@
           class="d-flex flex-column flex-md-row justify-content-center align-items-center">
           <div class="col-12 col-md-5 px-lg-5 imagediv">
             <img
-              :src="require('@/assets/chilling.jpeg')"
+              :src="require('@/assets/chilling.jpg')"
               alt="headerpic"
               class="img-fluid border-radius" />
           </div>
@@ -688,7 +686,7 @@
               </p>
               <p class="">
                 <i class="fas fa-phone"></i>
-                <a href="tel:+4369910994684">+43 699 10994684</a>
+                <a href="tel:+436802188909">+43680 2188909</a>
               </p>
 
               <h6 class="text-uppercase fw-bold mb-4">Social</h6>
