@@ -5,7 +5,7 @@
         <img
           :src="require('@/assets/logo_small.png')"
           alt="logo"
-          class="img-fluid"
+          class="img-fluid logo-img"
       /></router-link>
       <button
         class="navbar-toggler"
@@ -92,5 +92,9 @@
 
   .navbar-toggler {
     border: none;
+  }
+
+  .logo-img {
+    width: 200px;
   }
 </style>
