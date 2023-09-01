@@ -85,7 +85,7 @@
       Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei
       uns oder der Datenschutzbehörde Beschwerde einreichen.
     </p>
-    <p class="clickable primary" @click="removeCookies"></p>
+    <p class="clickable primary" @click="removeCookies">
       Widerruf der Einwilligung
     </p>
     <p>
