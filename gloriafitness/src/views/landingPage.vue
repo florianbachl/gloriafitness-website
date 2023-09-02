@@ -672,7 +672,7 @@
             <div class="mb-4">
               <h2>Gemeinsam erreichen wir deine Ziele</h2>
               <p class="lead-2 mt-5 mb-5">
-                Für Terminanfragen melde dich gerne telfonisch, per Whatsapp,
+                Für Terminanfragen melde dich gerne telefonisch, per Whatsapp,
                 Email oder dem Social Media Kanal deiner Wahl.
               </p>
 
