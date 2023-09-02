@@ -2,7 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 
 import landingPage from "@/views/landingPage";
 import adminLogin from "@/views/adminLogin";
-import contactForm from "@/views/contactForm";
+//import contactForm from "@/views/contactForm";
 import legalAndRights from "@/views/legalAndRights";
 import dataProtection from "@/views/dataProtection";
 import adminDashboard from "@/views/adminDashboard";
@@ -26,11 +26,11 @@ const routes = [
     name: "home",
     component: landingPage,
   },
-  {
-    path: "/contact",
-    name: "contact",
-    component: contactForm,
-  },
+  // {
+  //   path: "/contact",
+  //   name: "contact",
+  //   component: contactForm,
+  // },
   {
     path: "/login",
     name: "login",
