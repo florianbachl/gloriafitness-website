@@ -3,13 +3,15 @@
     <header>
       <div class="container">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center">
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center"
+        >
           <div class="col-12 col-md-6 pt-5 p-md-1 p-lg-3">
             <img
               :src="require('@/assets/Bunt_dicker.png')"
               alt="logo"
               id="logo-head-section"
-              class="img-fluid" />
+              class="img-fluid"
+            />
             <div class="my-4">
               <h1>Personal Coaching mit Herz</h1>
               <p class="lead mt-4">
@@ -27,7 +29,8 @@
             <img
               :src="require('@/assets/banner.jpg')"
               alt="headerpic "
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
         </div>
       </div>
@@ -36,12 +39,14 @@
       <div class="container">
         <div
           class="d-flex flex-column flex-md-row justify-content-center align-items-center"
-          id="quote">
+          id="quote"
+        >
           <div class="col-12 px-md-0 col-md-2">
             <img
               :src="require('@/assets/closeup.jpg')"
               alt="headerpic"
-              class="img-fluid quote-img" />
+              class="img-fluid quote-img"
+            />
           </div>
           <h4 class="col-12 col-md-10 mt-4 mt-md-0">
             "Ich möchte meinen Kunden zeigen, das Gesundheit nicht Verzicht
@@ -53,19 +58,23 @@
     </section>
     <section
       class="App__example o-vertical-spacing o-vertical-spacing--l"
-      id="personal-coaching">
+      id="personal-coaching"
+    >
       <div class="container">
         <ParallaxContainer
-          class="d-flex flex-column flex-md-row justify-content-start align-items-start">
+          class="d-flex flex-column flex-md-row justify-content-start align-items-start"
+        >
           <div class="col-12 col-md-5 px-lg-5">
             <img
               :src="require('@/assets/model.jpg')"
               alt="headerpic"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
           <ParallaxElement
             :factor="0.3"
-            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5">
+            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5"
+          >
             <div class="mb-4">
               <h2>Personal Coaching</h2>
               <p class="lead-2 mt-5 mb-5">
@@ -79,7 +88,7 @@
               </p>
             </div>
             <a class="link-primary" href="#contact"
-              >Jetzt richtig trainineren lernen</a
+              >Jetzt richtig trainieren lernen</a
             >
           </ParallaxElement>
           <div class="col-12 col-md-7 py-4 px-md-5 steps-for-mobile">
@@ -96,7 +105,7 @@
               </p>
             </div>
             <a class="link-primary" href="#contact"
-              >Jetzt richtig trainineren lernen</a
+              >Jetzt richtig trainieren lernen</a
             >
           </div>
         </ParallaxContainer>
@@ -105,13 +114,16 @@
 
     <section
       id="workout-plan"
-      class="App__example o-vertical-spacing o-vertical-spacing--l">
+      class="App__example o-vertical-spacing o-vertical-spacing--l"
+    >
       <div class="container">
         <ParallaxContainer
-          class="d-flex flex-column-reverse flex-md-row justify-content-start align-items-start">
+          class="d-flex flex-column-reverse flex-md-row justify-content-start align-items-start"
+        >
           <ParallaxElement
             :factor="0.4"
-            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5">
+            class="steps-for-desktop col-12 col-md-7 py-4 px-md-5"
+          >
             <div class="mb-4">
               <h2>Trainingsplan</h2>
               <p class="lead-2 mt-5 mb-5">
@@ -143,7 +155,8 @@
             <img
               :src="require('@/assets/chest.jpg')"
               alt="headerpic"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
         </ParallaxContainer>
       </div>
@@ -164,10 +177,12 @@
             <div class="col row">
               <div class="col">
                 <div
-                  class="d-flex flex-row justify-content-center align-items-center">
+                  class="d-flex flex-row justify-content-center align-items-center"
+                >
                   <div class="col-auto">
                     <div
-                      class="icon-wrapping icon-wrapping-chat d-flex flex-row justify-content-center align-items-center">
+                      class="icon-wrapping icon-wrapping-chat d-flex flex-row justify-content-center align-items-center"
+                    >
                       <span class="material-icons material-icons-step-1"
                         >question_answer</span
                       >
@@ -180,10 +195,12 @@
               </div>
               <div class="col">
                 <div
-                  class="d-flex flex-row justify-content-center align-items-center">
+                  class="d-flex flex-row justify-content-center align-items-center"
+                >
                   <div class="col-auto">
                     <div
-                      class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center">
+                      class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center"
+                    >
                       <span class="material-icons material-icons-step-1"
                         >fitness_center</span
                       >
@@ -195,10 +212,12 @@
               </div>
               <div class="col">
                 <div
-                  class="d-flex flex-row justify-content-center align-items-center">
+                  class="d-flex flex-row justify-content-center align-items-center"
+                >
                   <div class="col-auto">
                     <div
-                      class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center">
+                      class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center"
+                    >
                       <span class="material-icons material-icons-step-1"
                         >mood</span
                       >
@@ -212,12 +231,15 @@
             </div>
           </div>
           <div
-            class="d-flex flex-column align-items-start justify-content-start steps-for-mobile">
+            class="d-flex flex-column align-items-start justify-content-start steps-for-mobile"
+          >
             <div class="col row">
               <div
-                class="col-auto d-flex flex-column justify-content-center align-items-center">
+                class="col-auto d-flex flex-column justify-content-center align-items-center"
+              >
                 <div
-                  class="icon-wrapping icon-wrapping-chat d-flex flex-row justify-content-center align-items-center">
+                  class="icon-wrapping icon-wrapping-chat d-flex flex-row justify-content-center align-items-center"
+                >
                   <span class="material-icons material-icons-step-1"
                     >question_answer</span
                   >
@@ -231,9 +253,11 @@
             </div>
             <div class="col row">
               <div
-                class="col-auto d-flex flex-column justify-content-center align-items-center">
+                class="col-auto d-flex flex-column justify-content-center align-items-center"
+              >
                 <div
-                  class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center">
+                  class="icon-wrapping icon-wrapping-wave d-flex flex-row justify-content-center align-items-center"
+                >
                   <span class="material-icons material-icons-step-1"
                     >fitness_center</span
                   >
@@ -247,9 +271,11 @@
             </div>
             <div class="col row">
               <div
-                class="col-auto d-flex flex-column justify-content-center align-items-center">
+                class="col-auto d-flex flex-column justify-content-center align-items-center"
+              >
                 <div
-                  class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center">
+                  class="icon-wrapping icon-wrapping-smile d-flex flex-row justify-content-center align-items-center"
+                >
                   <span class="material-icons material-icons-step-1">mood</span>
                 </div>
 
@@ -275,21 +301,24 @@
                 <div class="package-name mt-5">
                   <h2 class="fw-700">TRAININGSPLAN</h2>
                 </div>
-                <h4 class="mb-5 fw-700 pc-t">210€</h4>
+                <h4 class="mb-5 fw-700 pc-t">190€</h4>
               </div>
               <div class="package-points">
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">Trainingsplan für 8-12 Wochen</p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
-                  <p class="px-1">3 Trainingseinheiten mit mir</p>
+                  <p class="px-1">2 Trainingseinheiten mit mir</p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">Online Trainingsplan und Trainingstagebuch</p>
                 </div>
@@ -307,34 +336,46 @@
           </div>
           <div class="col-12 col-md-4">
             <div
-              class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item package-item-recommend">
+              class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item package-item-recommend"
+            >
               <div class="recommended">Empfehlung</div>
               <div class="package-header">
                 <div class="package-name mt-5">
-                  <h2 class="fw-700">PERSONAL COACHING</h2>
+                  <h2 class="fw-700">LANGFRISTIGE BETREUUNG</h2>
                 </div>
-                <h4 class="mb-5 fw-700 pc-t">ab 60€/Stunde</h4>
+
+                <h4 class="mb-5 fw-700 pc-t">ab 85€/Monat</h4>
               </div>
+
               <div class="package-points">
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
-                  <p class="px-1">1:1 Betreuung</p>
+                  <p class="px-1">App Zugang</p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
+                  <span class="material-icons">check_circle</span>
+                  <p class="px-1">1-2 Trainings pro Monat</p>
+                </div>
+                <div
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">
-                    Bei dir zuhause (Wien und Stadtgrenze südlich von Wien),
-                    online oder im FitInn SCS
+                    Laufende Betreuung via Telefon und WhatsApp
                   </p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
-                  <p class="px-1">Auch 3er, 5er oder 10er Block</p>
+                  <p class="px-1">Wöchentliche online Check-ups</p>
                 </div>
               </div>
+
               <div class="text-center m-4">
                 <a href="#contact"
                   ><button type="button" class="btn btn-dark">
@@ -350,32 +391,33 @@
             <div class="py-3 pt-5 px-4 mx-2 my-4 my-md-5 package-item">
               <div class="package-header">
                 <div class="package-name mt-5">
-                  <h2 class="fw-700">LANGFRISTIGE BETREUUNG</h2>
+                  <h2 class="fw-700">PERSONAL COACHING</h2>
                 </div>
-
-                <h4 class="mb-5 fw-700 pc-t">ab 80€/Monat</h4>
+                <h4 class="mb-5 fw-700 pc-t">ab 85€/Stunde</h4>
               </div>
-
               <div class="package-points">
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
-                  <p class="px-1">1-2 Trainings pro Monat</p>
+                  <p class="px-1">1:1 Betreuung</p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">
-                    Laufende Betreuung via Telefon und WhatsApp
+                    <!-- Bei dir zuhause (Wien und Stadtgrenze südlich von Wien), -->
+                    Online oder im FitInn SCS
                   </p>
                 </div>
                 <div
-                  class="d-flex column justify-content-start align-items-start">
+                  class="d-flex column justify-content-start align-items-start"
+                >
                   <span class="material-icons">check_circle</span>
-                  <p class="px-1">Wöchentliche online Check-ups</p>
+                  <p class="px-1">Auch 5er oder 10er Block</p>
                 </div>
               </div>
-
               <div class="text-center m-4">
                 <a href="#contact"
                   ><button type="button" class="btn btn-outline-dark">
@@ -393,7 +435,8 @@
     <section id="about">
       <div class="container">
         <ParallaxContainer
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-start">
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-start"
+        >
           <div class="col-12 col-md-7 py-4 p-md-5">
             <div class="mb-4">
               <h2>Hallo!</h2>
@@ -436,17 +479,20 @@
           </div>
           <ParallaxElement
             :factor="0.2"
-            class="steps-for-desktop col-12 col-md-5 p-lg-5">
+            class="steps-for-desktop col-12 col-md-5 p-lg-5"
+          >
             <img
               :src="require('@/assets/me.jpg')"
               alt="aboutme"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </ParallaxElement>
           <div class="steps-for-mobile col-12 col-md-5 p-lg-5">
             <img
               :src="require('@/assets/me.jpg')"
               alt="aboutme"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
         </ParallaxContainer>
       </div>
@@ -454,64 +500,77 @@
     <section class="bglightblue2">
       <div class="container">
         <div
-          class="d-flex flex-column flex-md-row justify-content-center align-items-center mb-md-5">
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center mb-md-5"
+        >
           <div class="col-12 col-md-5 px-lg-5">
             <img
               :src="require('@/assets/jump.jpg')"
               alt="headerpic"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
           <div class="col-12 col-md-7 py-4 px-md-5">
             <div class="mb-4">
-              <h2>Ausbildungen</h2>
-              <h4 class="mt-5 mb-3">Bildungsweg</h4>
+              <h2>Qualifikationen</h2>
+              <h4 class="mt-4 mb-3">Ausbildungen</h4>
               <div class="col-sm d-flex flex-row align-items-start">
                 <span class="material-icons bullet-point-small">school</span>
-                <p class="">Matura HLP Mödling</p>
+                <p class="">Medizinische Trainingstherapeutin</p>
               </div>
               <div class="col-sm d-flex flex-row align-items-start">
                 <span class="material-icons bullet-point-small">school</span>
-                <p class="">
-                  Ausbildung zur Dipl. Fitness- und Personaltrainerin bei der
-                  PFA
-                </p>
+                <p class="">Sportwissenschafterin</p>
               </div>
               <div class="col-sm d-flex flex-row align-items-start">
                 <span class="material-icons bullet-point-small">school</span>
-                <p class="">
-                  Ausbildung Kinderskilehrerin Ausbildung Ernährungsberater
-                </p>
+                <p class="">Dipl. Fitness- und Personaltrainerin bei der PFA</p>
               </div>
               <div class="col-sm d-flex flex-row align-items-start">
                 <span class="material-icons bullet-point-small">school</span>
-                <p class="">Abschluss Bachelorstudium Sportwissenschaft</p>
+                <p class="">Ausgebildete Kinderskilehrerin</p>
               </div>
               <div class="col-sm d-flex flex-row align-items-start">
                 <span class="material-icons bullet-point-small">school</span>
-                <p class="">
-                  Start Masterstudium Sportwissenschaft (Trainingstherapie)
-                </p>
+                <p class="">Ernährungscoach i.A.</p>
               </div>
 
               <h4 class="mt-4 mb-3">Karriere</h4>
-              <div class="col-sm d-flex flex-row align-items-start">
-                <span class="material-icons bullet-point-small">school</span>
-                <p class="">
-                  Seit 2019 Selbständige Fitness- und Personaltrainerin
-                </p>
-              </div>
-              <div class="col-sm d-flex flex-row align-items-start">
-                <span class="material-icons bullet-point-small">school</span>
-                <p class="">2020 Kinderskilehrerin</p>
-              </div>
-              <div class="col-sm d-flex flex-row align-items-start">
-                <span class="material-icons bullet-point-small">school</span>
-                <p class="">2021 Praktikum bei Dr. Kienbacher Training</p>
-              </div>
-              <div class="col-sm d-flex flex-row align-items-start">
-                <span class="material-icons bullet-point-small">school</span>
-                <p class="">Seit 2022 Trainerin in der Therme Wien Fitness</p>
-              </div>
+                <table class="table table-borderless">
+                <tbody>
+                  <tr>
+                    <td class="fw-semibold">seit 2019</td>
+                    <td>Selbständige Fitness- und Personaltrainerin</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold">2020</td>
+                    <td>Kinderskilehrerin</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold">2021</td>
+                    <td>Praktikum bei Dr. Kienbacher Training</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold">2022 - 2023</td>
+                    <td>Trainerin in der Therme Wien Fitness</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold">2024</td>
+                    <td>Praktikum NRZ Rosenhügel</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold"></td>
+                    <td>Praktikum RZ Laab im Walde</td>
+                    </tr>
+                    <tr>
+                    <td class="fw-semibold"></td>
+                    <td>Praktikum RZ Alland</td>
+                    </tr>
+                     <tr>
+                    <td class="fw-semibold">seit 2024</td>
+                  <td>Med. Trainingstherapeutin bei Dr. Becker Rückenschmerzpunkt Speising</td>
+                  </tr>
+                </tbody>
+                </table>
             </div>
           </div>
         </div>
@@ -520,7 +579,8 @@
     <section class="bgdark text-white">
       <div class="container">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center">
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center"
+        >
           <div class="col-12 pt-4">
             <div class="mb-4">
               <h2 class="mb-5">
@@ -583,7 +643,8 @@
     <section class="bgdark2 text-white">
       <div class="container">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center">
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center"
+        >
           <div class="col-12">
             <div>
               <p class="lead">
@@ -599,7 +660,8 @@
     <section>
       <div class="container">
         <div
-          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center m-md-5">
+          class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-center m-md-5"
+        >
           <div class="col-12 col-md-6 py-4 px-md-5">
             <div class="mb-4">
               <h2>Es ist nie zu spät, mit Sport zu beginnen</h2>
@@ -627,7 +689,8 @@
             <img
               :src="require('@/assets/chest_comp.png')"
               alt="headerpic"
-              class="img-fluid" />
+              class="img-fluid"
+            />
           </div>
         </div>
       </div>
@@ -641,7 +704,8 @@
         <div class="question py-3" v-for="q in questions" :key="q.question">
           <div
             class="d-flex column justify-content-between align-items-center clickable"
-            @click="q.showdesc = !q.showdesc">
+            @click="q.showdesc = !q.showdesc"
+          >
             <h4>{{ q.title }}</h4>
             <span
               class="material-icons faq-icon"
@@ -661,12 +725,14 @@
     <section class="" id="contact">
       <div class="container">
         <div
-          class="d-flex flex-column flex-md-row justify-content-center align-items-center">
+          class="d-flex flex-column flex-md-row justify-content-center align-items-center"
+        >
           <div class="col-12 col-md-5 px-lg-5 imagediv">
             <img
               :src="require('@/assets/chilling.jpg')"
               alt="headerpic"
-              class="img-fluid border-radius" />
+              class="img-fluid border-radius"
+            />
           </div>
           <div class="col-12 col-md-7 py-4 px-md-5 textdiv">
             <div class="mb-4">
@@ -700,7 +766,8 @@
                     class="social-icon bggrey clickable"
                     id="instagram"
                     role="img"
-                    aria-label="social-instagram"></div
+                    aria-label="social-instagram"
+                  ></div
                 ></a>
               </span>
             </div>
@@ -712,287 +779,277 @@
 </template>
 
 <script>
-  import ParallaxContainer from "../components/parallax/parallaxContainer.vue";
-  import ParallaxElement from "../components/parallax/parallaxItem.vue";
-  export default {
-    name: "landingPage",
-    components: { ParallaxContainer, ParallaxElement },
-    data() {
-      return {
-        questions: [
-          {
-            title: "Wo kann das Personal Training durchgeführt werden?",
-            desc: "Das Training kann im FitInn SCS, online oder bei dir zuhause durchgeführt werden. Beachte jedoch, dass ich Trainings in Person aktuell nur in Wien und an der südlichen Stadtgrenze anbieten kann. Für genauere Informationen kontaktiere mich bitte, damit ich dir ein individuelles Angebot erstellen kann.",
-            showdesc: false,
-          },
-          {
-            title: "Wie lange kann ich mit einem Trainingsplan trainieren?",
-            desc: "Die Dauer, für die du einen Trainingsplan nutzen kannst, variiert. Idealerweise solltest du ihn alle 8-12 Wochen überarbeiten lassen, um kontinuierliche Fortschritte zu fördern und Plateaus zu vermeiden. Dein Fortschritt, Ziele, Fitnessniveau und Veränderungen in deinem Leben beeinflussen die Plananpassung. Der Körper gewöhnt sich nach einer Zeit an bestimmte Reize, durch neue Übungen kann er kontinuierlich stärker werden und neues lernen. Auch für die Motivation ist es gut, regelmäßig etwas Abwechslung in das Training zu bringen, um Langeweile zu vermeiden sowie engagiert und fokussiert zu bleiben. Außerdem sollten deine Ziele regelmäßig erreicht und anschließend neue gesetzt werden. Bei neuen Zielen bedarf es oft an anderen Trainingsmethoden.",
-            showdesc: false,
-          },
-          {
-            title: "Für wen ist das Training geeignet? ",
-            desc: "Training ist für Menschen jeden Alters, Geschlechts und Fitnessniveaus wichtig. Es fördert Gesundheit, verbessert Fitness, stärkt Muskeln und Knochen, reduziert das Krankheitsrisiko, steigert Energie und mentales Wohlbefinden, fördert Gewichtsmanagement und beugt Verletzungen vor. Von Anfängern bis hin zu Athleten profitieren alle von maßgeschneiderten Programmen. Ältere Menschen erhalten Mobilität und Gleichgewicht, Kinder entwickeln sich gesund, und berufstätige Erwachsene verhindern sitzbedingte Probleme. Unabhängig von Zielen und Lebensphasen trägt regelmäßiges Training zu einer besseren Lebensqualität bei.",
-            showdesc: false,
-          },
-        ],
-      };
-    },
-    computed: {},
-    watch: {},
-    methods: {},
-  };
+import ParallaxContainer from "../components/parallax/parallaxContainer.vue";
+import ParallaxElement from "../components/parallax/parallaxItem.vue";
+export default {
+  name: "landingPage",
+  components: { ParallaxContainer, ParallaxElement },
+  data() {
+    return {
+      questions: [
+        {
+          title: "Wo kann das Personal Training durchgeführt werden?",
+          desc: "Das Training kann im FitInn SCS, online oder bei dir zuhause durchgeführt werden. Beachte jedoch, dass ich Trainings in Person aktuell nur in Wien und an der südlichen Stadtgrenze anbieten kann. Für genauere Informationen kontaktiere mich bitte, damit ich dir ein individuelles Angebot erstellen kann.",
+          showdesc: false,
+        },
+        {
+          title: "Wie lange kann ich mit einem Trainingsplan trainieren?",
+          desc: "Die Dauer, für die du einen Trainingsplan nutzen kannst, variiert. Idealerweise solltest du ihn alle 8-12 Wochen überarbeiten lassen, um kontinuierliche Fortschritte zu fördern und Plateaus zu vermeiden. Dein Fortschritt, Ziele, Fitnessniveau und Veränderungen in deinem Leben beeinflussen die Plananpassung. Der Körper gewöhnt sich nach einer Zeit an bestimmte Reize, durch neue Übungen kann er kontinuierlich stärker werden und neues lernen. Auch für die Motivation ist es gut, regelmäßig etwas Abwechslung in das Training zu bringen, um Langeweile zu vermeiden sowie engagiert und fokussiert zu bleiben. Außerdem sollten deine Ziele regelmäßig erreicht und anschließend neue gesetzt werden. Bei neuen Zielen bedarf es oft an anderen Trainingsmethoden.",
+          showdesc: false,
+        },
+        {
+          title: "Für wen ist das Training geeignet? ",
+          desc: "Training ist für Menschen jeden Alters, Geschlechts und Fitnessniveaus wichtig. Es fördert Gesundheit, verbessert Fitness, stärkt Muskeln und Knochen, reduziert das Krankheitsrisiko, steigert Energie und mentales Wohlbefinden, fördert Gewichtsmanagement und beugt Verletzungen vor. Von Anfängern bis hin zu Athleten profitieren alle von maßgeschneiderten Programmen. Ältere Menschen erhalten Mobilität und Gleichgewicht, Kinder entwickeln sich gesund, und berufstätige Erwachsene verhindern sitzbedingte Probleme. Unabhängig von Zielen und Lebensphasen trägt regelmäßiges Training zu einer besseren Lebensqualität bei.",
+          showdesc: false,
+        },
+      ],
+    };
+  },
+  computed: {},
+  watch: {},
+  methods: {},
+};
 </script>
 <style scoped>
-  #logo-head-section {
-    width: 150px;
-  }
+#logo-head-section {
+  width: 150px;
+}
 
-  .package-item {
-    border: 2px solid #353535;
-    position: relative;
-    height: auto;
-    border-radius: 5px;
-  }
+.package-item {
+  border: 2px solid #353535;
+  position: relative;
+  height: auto;
+  border-radius: 5px;
+}
 
-  .package-item-recommend {
-    border: 2px solid #353535;
-    background-color: white;
-  }
+.package-item-recommend {
+  border: 2px solid #353535;
+  background-color: white;
+}
 
-  .bgdark {
-    background-color: #222222;
-  }
-  .bgdark2 {
-    background-color: #141414;
-  }
-  .inner {
-    width: 100%;
-    height: 100%;
-    background-color: #f8f8f8;
-    position: absolute;
+.bgdark {
+  background-color: #222222;
+}
+.bgdark2 {
+  background-color: #141414;
+}
+.inner {
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  position: absolute;
 
-    border-radius: 5px;
-    bottom: -25px;
-    right: -20px;
-    z-index: -1;
-  }
-  .package-item-recommend .inner {
-    background-color: #d3dce4;
-  }
-  .lightblue {
-    background-color: #cae4fa38;
-  }
+  border-radius: 5px;
+  bottom: -25px;
+  right: -20px;
+  z-index: -1;
+}
+.package-item-recommend .inner {
+  background-color: #d3dce4;
+}
+.lightblue {
+  background-color: #cae4fa38;
+}
 
-  .pc-t {
-    color: #0f70b7;
-  }
-  .recommended {
-    position: absolute;
-    background-color: #0f70b7;
-    width: 100%;
-    padding: 1em;
-    text-align: center;
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
-    top: 0;
-    left: 0;
-    border-radius: 2px;
-  }
+.pc-t {
+  color: #0f70b7;
+}
+.recommended {
+  position: absolute;
+  background-color: #0f70b7;
+  width: 100%;
+  padding: 1em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
 
-  .faq-icon {
-    transition: all 0.2s;
-  }
+.faq-icon {
+  transition: all 0.2s;
+}
 
-  .rotate {
-    transform: rotate(45deg);
-  }
+.rotate {
+  transform: rotate(45deg);
+}
 
-  .icon-wrapping {
-    padding: 15px;
-    border-radius: 5px;
-    border: 2px solid;
-    margin-right: 24px;
-  }
+.icon-wrapping {
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid;
+  margin-right: 24px;
+}
 
-  .icon-wrapping-chat {
-  }
+.icon-wrapping-chat {
+}
 
-  .h6 {
-    margin-bottom: 0px;
-  }
+.h6 {
+  margin-bottom: 0px;
+}
 
-  .icon-wrapping-achievement {
-    background: white;
-  }
+.icon-wrapping-achievement {
+  background: white;
+}
 
-  .icon-wrapping-wave {
-  }
+.icon-wrapping-wave {
+}
 
-  .icon-wrapping-smile {
-  }
+.icon-wrapping-smile {
+}
 
-  .icon-wrapping .material-icons {
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 27px;
-  }
-  .material-icons-step-1 {
-    background: -moz-linear-gradient(
-      top,
-      #0f70b7 0%,
-      #0f70b7 50%,
-      #0b4772 100%
-    );
-    background: -webkit-linear-gradient(
-      top,
-      #0f70b7 0%,
-      #0f70b7 50%,
-      #0b4772 100%
-    );
-    background: linear-gradient(
-      to bottom,
-      #0f70b7 0%,
-      #0f70b7 50%,
-      #0b4772 100%
-    );
-  }
+.icon-wrapping .material-icons {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 27px;
+}
+.material-icons-step-1 {
+  background: -moz-linear-gradient(top, #0f70b7 0%, #0f70b7 50%, #0b4772 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #0f70b7 0%,
+    #0f70b7 50%,
+    #0b4772 100%
+  );
+  background: linear-gradient(to bottom, #0f70b7 0%, #0f70b7 50%, #0b4772 100%);
+}
 
-  .achievement {
-    font-size: 20px;
-  }
+.achievement {
+  font-size: 20px;
+}
 
-  #about {
-  }
+#about {
+}
 
+#about-img {
+  position: sticky;
+  top: 5em;
+}
+
+.steps-for-mobile {
+  display: none !important;
+}
+
+.steps-for-desktop {
+}
+
+.vl {
+  border-left: 1px solid lightgray;
+  min-height: 100px;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
   #about-img {
-    position: sticky;
-    top: 5em;
+    position: relative;
+    top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .steps-for-mobile {
+    display: block !important;
   }
 
-  .steps-for-mobile {
-    display: none !important;
+  #about-img img {
+    max-width: 400px;
   }
 
   .steps-for-desktop {
+    display: none;
   }
 
-  .vl {
-    border-left: 1px solid lightgray;
-    min-height: 100px;
-    height: 100%;
+  .icon-wrapping:not(.icon-wrapping-achievement) {
+    margin: 0px;
+    margin-top: 17px;
   }
+}
 
-  @media only screen and (max-width: 768px) {
-    #about-img {
-      position: relative;
-      top: 0;
-    }
-  }
+.bullet-point {
+  margin-right: 15px;
+  margin-top: 3px;
+  font-size: 25px;
+  color: #0f70b7;
+}
+.bullet-point-small {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #0f70b7;
+}
 
-  @media only screen and (max-width: 600px) {
-    .steps-for-mobile {
-      display: block !important;
-    }
+.border-wrapper {
+  box-shadow: 25px 25px 0px 0px #f8f8f8;
+  border: 2px solid #0f70b7;
+  position: relative; /* Set the positioning to relative */
+  border-radius: 5px;
+}
+.image-wrapper {
+  box-shadow: 25px 25px 0px 0px #f8f8f8;
+  border: 2px solid #0f70b7;
+  position: relative; /* Set the positioning to relative */
+  border-radius: 5px;
+}
+.image-wrapper::before {
+  border: 2px solid #0f70b7;
+  content: "";
+  position: absolute;
+  top: 23px; /* 40px from the top */
+  left: 23px; /* 40px from the left */
+  right: 0;
+  border-radius: 5px;
+  bottom: 0;
+}
 
-    #about-img img {
-      max-width: 400px;
-    }
+#quote {
+  border: 2px solid #353535;
+  box-shadow: 25px 25px 0px 0px #f6fbff;
+  position: relative; /* Set the positioning to relative */
+  border-radius: 5px;
+  padding: 30px 40px;
+}
 
-    .steps-for-desktop {
-      display: none;
-    }
+#quote::before {
+  content: "";
+  background-color: #f6fbff; /* Your desired background color */
+  position: absolute;
+  top: 23px; /* 40px from the top */
+  left: 23px; /* 40px from the left */
+  right: 0;
+  border-radius: 5px;
+  bottom: 0;
+  z-index: -1; /* Ensure the background is behind the content */
+}
 
-    .icon-wrapping:not(.icon-wrapping-achievement) {
-      margin: 0px;
-      margin-top: 17px;
-    }
-  }
+.quote-img {
+  padding: 0px 40px;
+  border-radius: 50%;
+}
 
-  .bullet-point {
-    margin-right: 15px;
-    margin-top: 3px;
-    font-size: 25px;
-    color: #0f70b7;
-  }
-  .bullet-point-small {
-    margin-right: 15px;
-    font-size: 20px;
-    color: #0f70b7;
-  }
+.border-radius {
+  border-radius: 5px;
+}
 
-  .border-wrapper {
-    box-shadow: 25px 25px 0px 0px #f8f8f8;
-    border: 2px solid #0f70b7;
-    position: relative; /* Set the positioning to relative */
-    border-radius: 5px;
-  }
-  .image-wrapper {
-    box-shadow: 25px 25px 0px 0px #f8f8f8;
-    border: 2px solid #0f70b7;
-    position: relative; /* Set the positioning to relative */
-    border-radius: 5px;
-  }
-  .image-wrapper::before {
-    border: 2px solid #0f70b7;
-    content: "";
-    position: absolute;
-    top: 23px; /* 40px from the top */
-    left: 23px; /* 40px from the left */
-    right: 0;
-    border-radius: 5px;
-    bottom: 0;
-  }
+.package-header {
+  height: 170px;
+}
 
-  #quote {
-    border: 2px solid #353535;
-    box-shadow: 25px 25px 0px 0px #f6fbff;
-    position: relative; /* Set the positioning to relative */
-    border-radius: 5px;
-    padding: 30px 40px;
-  }
+.package-name {
+  height: 95px;
+}
 
-  #quote::before {
-    content: "";
-    background-color: #f6fbff; /* Your desired background color */
-    position: absolute;
-    top: 23px; /* 40px from the top */
-    left: 23px; /* 40px from the left */
-    right: 0;
-    border-radius: 5px;
-    bottom: 0;
-    z-index: -1; /* Ensure the background is behind the content */
-  }
+.package-points {
+  height: 180px;
+}
 
-  .quote-img {
-    padding: 0px 40px;
-    border-radius: 50%;
-  }
+.bglightblue {
+  background-color: #f6fbff;
+}
 
-  .border-radius {
-    border-radius: 5px;
-  }
-
-  .package-header {
-    height: 170px;
-  }
-
-  .package-name {
-    height: 95px;
-  }
-
-  .package-points {
-    height: 180px;
-  }
-
-  .bglightblue {
-    background-color: #f6fbff;
-  }
-
-  .bglightblue2 {
-    background-color: #edf0f55b;
-  }
+.bglightblue2 {
+  background-color: #edf0f55b;
+}
 </style>
