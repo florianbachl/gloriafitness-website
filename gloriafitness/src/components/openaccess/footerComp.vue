@@ -16,23 +16,23 @@
               <!-- Links -->
               <h6 class="text-uppercase fw-bold mb-4 text-white">Themen</h6>
               <p>
-                <router-link to="/#kinesiologie" class="text-white"
-                  >Personal Training</router-link
+                <a href="#personal-coaching" class="text-white"
+                  >Personal Training</a
                 >
               </p>
               <p>
-                <router-link to="/#cranio" class="text-white"
-                  >Trainingsplan</router-link
+                <a href="#workout-plan" class="text-white"
+                  >Trainingsplan</a
                 >
               </p>
               <p>
-                <router-link to="/#behandlung" class="text-white"
-                  >Dauerhafte Betreuung</router-link
+                <a href="#pricing" class="text-white"
+                  >Pakete</a
                 >
               </p>
               <p>
-                <router-link to="/#about" class="text-white"
-                  >Über mich</router-link
+                <a href="#about" class="text-white"
+                  >Über mich</a
                 >
               </p>
             </div>

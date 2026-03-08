@@ -8,123 +8,124 @@
 </template>
 
 <script>
-  import footerComp from "./components/openaccess/footerComp";
-  import navComp from "./components/openaccess/navComp";
-  import cookieConsent from "./components/cookies/cookieConsent";
-  export default {
-    name: "App",
-    components: {
-      footerComp,
-      navComp,
-      cookieConsent,
+import footerComp from "./components/openaccess/footerComp";
+import navComp from "./components/openaccess/navComp";
+import cookieConsent from "./components/cookies/cookieconsent";
+export default {
+  name: "App",
+  components: {
+    footerComp,
+    navComp,
+    cookieConsent,
+  },
+  created() {
+    console.log("I do");
+  },
+  watch: {
+    $route() {
+      this.setExpanded();
     },
-    created() {
-      console.log("I do");
+  },
+  methods: {
+    setExpanded() {
+      this.$store.dispatch("setExpanded", false);
     },
-    watch: {
-      $route() {
-        this.setExpanded();
-      },
-    },
-    methods: {
-      setExpanded() {
-        this.$store.dispatch("setExpanded", false);
-      },
-    },
-  };
+  },
+};
 </script>
 
 <style>
-  * {
-    padding: 0px;
-    margin: 0px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-display: swap;
-  }
-  .social-icon {
-    padding: 15px;
-    border-radius: 50%;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-display: swap;
+}
+.social-icon {
+  padding: 15px;
+  border-radius: 50%;
 
-    margin-right: 15px;
-    background-repeat: no-repeat;
-    background-size: 60% auto;
-    background-position: center center;
-  }
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-size: 60% auto;
+  background-position: center center;
+}
 
-  #twitter {
-    background-image: url("assets/logos/twitter.webp");
-  }
+#twitter {
+  background-image: url("assets/logos/twitter.webp");
+}
 
-  #facebook {
-    background-image: url("assets/logos/facebook.webp");
-  }
+#facebook {
+  background-image: url("assets/logos/facebook.webp");
+}
 
-  #linkedin {
-    background-image: url("assets/logos/linkedin.webp");
-  }
+#linkedin {
+  background-image: url("assets/logos/linkedin.webp");
+}
 
-  #instagram {
-    background-image: url("assets/logos/instagram.webp");
-  }
+#instagram {
+  background-image: url("assets/logos/instagram.webp");
+}
 
+section {
+  padding: 3em 0;
+}
+
+header {
+  padding: 7em 0;
+}
+
+.bggrey {
+  background-color: #f8f8f8;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.link-primary {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0f70b7 !important;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
   section {
-    padding: 3em 0;
+    padding: 2em 0em;
   }
 
   header {
-    padding: 7em 0;
+    padding: 2em 0;
   }
+}
 
-  .bggrey {
-    background-color: #f8f8f8;
-  }
+.btn {
+  z-index: 1000;
+}
 
-  .clickable {
-    cursor: pointer;
-  }
+.btn-primary {
+  background-color: #0f70b7 !important;
+  border-color: #0f70b7 !important;
+}
 
-  .link-primary {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    color: #0f70b7 !important;
-    text-transform: uppercase;
-  }
-  @media only screen and (max-width: 767px) {
-    section {
-      padding: 2em 0em;
-    }
+.fw-700 {
+  font-weight: 700;
+}
 
-    header {
-      padding: 2em 0;
-    }
-  }
+.btn-outline-dark {
+  border-color: #29303f !important;
+  color: #29303f !important;
+}
 
-  .btn {
-    z-index: 1000;
-  }
+.btn-outline-dark:hover {
+  background-color: #29303f !important;
+  color: white !important;
+}
 
-  .btn-primary {
-    background-color: #0f70b7 !important;
-  }
-
-  .fw-700 {
-    font-weight: 700;
-  }
-
-  .btn-outline-dark {
-    border-color: #29303f !important;
-    color: #29303f !important;
-  }
-
-  .btn-outline-dark:hover {
-    background-color: #29303f !important;
-    color: white !important;
-  }
-
-  .btn-dark {
-    background-color: #29303f !important;
-    color: white !important;
-  }
+.btn-dark {
+  background-color: #29303f !important;
+  color: white !important;
+}
 </style>

@@ -301,7 +301,7 @@
                 <div class="package-name mt-5">
                   <h2 class="fw-700">TRAININGSPLAN</h2>
                 </div>
-                <h4 class="mb-5 fw-700 pc-t">190€</h4>
+                <h4 class="mb-5 fw-700 pc-t">210€</h4>
               </div>
               <div class="package-points">
                 <div
@@ -341,10 +341,10 @@
               <div class="recommended">Empfehlung</div>
               <div class="package-header">
                 <div class="package-name mt-5">
-                  <h2 class="fw-700">LANGFRISTIGE BETREUUNG</h2>
+                  <h2 class="fw-700">10ER BLOCK /<br />5ER BLOCK</h2>
                 </div>
 
-                <h4 class="mb-5 fw-700 pc-t">ab 85€/Monat</h4>
+                <h4 class="mb-5 fw-700 pc-t">ab 85€ / Enheit</h4>
               </div>
 
               <div class="package-points">
@@ -353,12 +353,6 @@
                 >
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">App Zugang</p>
-                </div>
-                <div
-                  class="d-flex column justify-content-start align-items-start"
-                >
-                  <span class="material-icons">check_circle</span>
-                  <p class="px-1">1-2 Trainings pro Monat</p>
                 </div>
                 <div
                   class="d-flex column justify-content-start align-items-start"
@@ -393,7 +387,7 @@
                 <div class="package-name mt-5">
                   <h2 class="fw-700">PERSONAL COACHING</h2>
                 </div>
-                <h4 class="mb-5 fw-700 pc-t">ab 85€/Stunde</h4>
+                <h4 class="mb-5 fw-700 pc-t">90€ / Einheit</h4>
               </div>
               <div class="package-points">
                 <div
@@ -408,14 +402,8 @@
                   <span class="material-icons">check_circle</span>
                   <p class="px-1">
                     <!-- Bei dir zuhause (Wien und Stadtgrenze südlich von Wien), -->
-                    Online oder im FitInn SCS
+                    Im FitInn SCS oder Trainer's Gym 1050
                   </p>
-                </div>
-                <div
-                  class="d-flex column justify-content-start align-items-start"
-                >
-                  <span class="material-icons">check_circle</span>
-                  <p class="px-1">Auch 5er oder 10er Block</p>
                 </div>
               </div>
               <div class="text-center m-4">
@@ -447,9 +435,9 @@
                 Aus- und Weiterbildungen eine bedeutende Rolle, aber ebenso
                 wichtig ist das zwischenmenschliche Element. Daher nutze ich
                 gerne diese Gelegenheit, um mich kurz vorzustellen.<br /><br />
-                Mein Name ist Gloria und ich bin Sportwissenschaftlerin und
-                Dipl. Personal Trainerin. Bewegung nimmt seit Kindesalter bei
-                mir einen sehr hohen Stellenwert ein. Immer in Bewegung, alles
+                Mein Name ist Gloria und ich bin Sportwissenschafterin und Dipl.
+                Personal Trainerin. Bewegung nimmt seit Kindesalter bei mir
+                einen sehr hohen Stellenwert ein. Immer in Bewegung, alles
                 ausprobieren und lernen wollen. Von Einradfahren, Turnen,
                 Leichtathletik über Volleyball bis hin zu Klettern war alles
                 dabei.<br /><br />
@@ -460,15 +448,16 @@
                 bin seither neben meinem Studium als selbständige Personal
                 Trainerin tätig. Der Drang nach mehr Wissen in den Bereichen
                 Sport und Gesundheit hat dazu geführt das Studium
-                Sportwissenschaft zu beginnen. Im Frühjahr 2023 habe ich das
-                Bachelorstudium Sportwissenschaft mit der Spezialisierung
-                Gesundheitsförderung, Prävention, Rehabilitation und Fitness mit
-                Erfolg abgeschlossen. Aktuell befinde ich mich im Masterstudium
-                Trainingstherapie. <br /><br />Es ist mir wichtig, stets am
-                neuesten Stand der Wissenschaft zu sein, um meinen Kunden hohe
-                Qualität bieten zu können. Um das optimale Rundum-Paket bieten
-                zu können, bilde ich mich ständig fort, aktuell befinde ich mich
-                in der Ausbildung zur Ernährungstrainerin.<br /><br />
+                Sportwissenschaft zu beginnen. Im Herbst 2025 habe ich das
+                Masterstudium Sportwissenschaft mit der Spezialisierung
+                Gesundheitsförderung, Prävention, Rehabilitation und
+                medizinischer Trainingstherapie mit Erfolg abgeschlossen.
+                Aktuell befinde ich mich im Masterstudium Trainingstherapie.
+                <br /><br />Es ist mir wichtig, stets am neuesten Stand der
+                Wissenschaft zu sein, um meinen Kunden hohe Qualität bieten zu
+                können. Um das optimale Rundum-Paket bieten zu können, bilde ich
+                mich ständig fort, aktuell befinde ich mich in der Ausbildung
+                zur Ernährungstrainerin.<br /><br />
                 Mein Ziel ist es, meine Kunden nicht nur zu trainieren, sondern
                 ihnen ein Verständnis dafür zu vermitteln, wie wichtig Bewegung
                 für Körper und Geist ist. Ich stehe an deiner Seite, um deine
@@ -533,44 +522,55 @@
                 <span class="material-icons bullet-point-small">school</span>
                 <p class="">Ernährungscoach i.A.</p>
               </div>
+              <div class="col-sm d-flex flex-row align-items-start">
+                <span class="material-icons bullet-point-small">school</span>
+                <p class="">Gewerbliche Masseurin i.A.</p>
+              </div>
 
               <h4 class="mt-4 mb-3">Karriere</h4>
-                <table class="table table-borderless">
+              <table class="table table-borderless">
                 <tbody>
                   <tr>
                     <td class="fw-semibold">seit 2019</td>
                     <td>Selbständige Fitness- und Personaltrainerin</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold">2020</td>
                     <td>Kinderskilehrerin</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold">2021</td>
                     <td>Praktikum bei Dr. Kienbacher Training</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold">2022 - 2023</td>
                     <td>Trainerin in der Therme Wien Fitness</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold">2024</td>
                     <td>Praktikum NRZ Rosenhügel</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold"></td>
                     <td>Praktikum RZ Laab im Walde</td>
-                    </tr>
-                    <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold"></td>
                     <td>Praktikum RZ Alland</td>
-                    </tr>
-                     <tr>
+                  </tr>
+                  <tr>
                     <td class="fw-semibold">seit 2024</td>
-                  <td>Med. Trainingstherapeutin bei Dr. Becker Rückenschmerzpunkt Speising</td>
+                    <td>
+                      Med. Trainingstherapeutin bei Dr. Becker
+                      Rückenschmerzpunkt Speising
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="fw-semibold">2025</td>
+                    <td>Abschluss Masterstudium Sportwissenschaft</td>
                   </tr>
                 </tbody>
-                </table>
+              </table>
             </div>
           </div>
         </div>
@@ -1051,5 +1051,13 @@ export default {
 
 .bglightblue2 {
   background-color: #edf0f55b;
+}
+
+.bglightblue2 .table {
+  background-color: transparent !important;
+}
+
+.bglightblue2 .table tbody tr td {
+  background-color: transparent !important;
 }
 </style>

@@ -4,7 +4,7 @@ import landingPage from "@/views/landingPage";
 import adminLogin from "@/views/adminLogin";
 //import contactForm from "@/views/contactForm";
 import legalAndRights from "@/views/legalAndRights";
-import dataProtection from "@/views/dataProtection";
+import dataProtection from "@/views/dataprotection";
 import adminDashboard from "@/views/adminDashboard";
 
 import { store } from "@/store/index";
