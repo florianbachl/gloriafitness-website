@@ -110,7 +110,8 @@ h3{font-size:1.35rem}
 
 /* Studio */
 .studio-grid{display:grid;gap:26px}
-.studio-grid img{width:100%;max-height:520px;object-fit:cover;object-position:center}
+.studio-photos{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.studio-grid img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:center}
 .address{font-weight:700;color:var(--blue)}
 
 /* FAQ */
