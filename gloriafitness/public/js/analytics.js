@@ -38,8 +38,12 @@
   function decide(v) {
     set(v);
     if (banner) banner.hidden = true;
-    if (v === 'yes' && window.posthog && window.posthog.set_config) {
+    if (!window.posthog || !window.posthog.set_config) return;
+    if (v === 'yes') {
       window.posthog.set_config({ persistence: 'localStorage+cookie' });
+    } else {
+      window.posthog.reset();
+      window.posthog.set_config({ persistence: 'memory' });
     }
   }
 
@@ -50,6 +54,10 @@
   var y = document.getElementById('consent-yes'), n = document.getElementById('consent-no');
   if (y) y.addEventListener('click', function () { decide('yes'); });
   if (n) n.addEventListener('click', function () { decide('no'); });
+
+  // Auswahl jederzeit änderbar (Footer-Link)
+  var open = document.getElementById('consent-open');
+  if (open) open.addEventListener('click', function (e) { e.preventDefault(); if (banner) banner.hidden = false; });
 
   // Widerruf (Datenschutzseite)
   var re = document.getElementById('consent-reset');

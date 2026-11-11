@@ -149,6 +149,9 @@ details.q p{color:var(--muted);font-size:.95rem;margin:12px 0 4px}
 .prose li{margin-bottom:6px}
 .note{background:var(--cream);border-left:4px solid #9fb6c4;padding:16px 18px;font-size:.9rem;color:#4b5c66}
 
+.prose-table{width:100%;border-collapse:collapse;font-size:.85rem;display:block;overflow-x:auto;margin-bottom:1em}
+.prose-table th,.prose-table td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+
 /* Cookie-Banner */
 .consent{position:fixed;left:12px;right:12px;bottom:12px;z-index:300;background:#fff;border:1px solid var(--line);box-shadow:0 8px 30px rgba(20,40,60,.18);padding:18px;max-width:520px}
 .consent[hidden]{display:none}
