@@ -35,7 +35,13 @@
   }
 
   window.addEventListener('message', function (e) {
-    if (e.origin === 'https://calendly.com' && e.data && e.data.event === 'calendly.event_scheduled') {
+    if (e.origin !== 'https://calendly.com' || !e.data) return;
+    // Hoehe des Embeds an den Calendly-Inhalt anpassen: kein verschachteltes Scrollen im iframe
+    if (e.data.event === 'calendly.page_height' && embed && e.data.payload) {
+      var h = parseInt(e.data.payload.height, 10);
+      if (h > 300 && h < 4000) embed.style.height = h + 'px';
+    }
+    if (e.data.event === 'calendly.event_scheduled') {
       track('calendly_event_scheduled');
       logInfo('calendly booking completed', { integration: 'calendly' });
     }
