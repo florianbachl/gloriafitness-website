@@ -4,11 +4,22 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "public": "public",
+    "cleanUrls": true,
+    "trailingSlashBehavior": "REMOVE",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {"source": "/login", "destination": "/", "type": 301},
+      {"source": "/dashboard", "destination": "/", "type": 301},
+      {"source": "/contact", "destination": "/", "type": 301}
+    ],
+    "headers": [
+      {"source": "**/*.@(jpg|png|webp|ico|css|js)", "headers": [{"key": "Cache-Control", "value": "public, max-age=2592000"}]},
+      {"source": "**", "headers": [
+        {"key": "X-Content-Type-Options", "value": "nosniff"},
+        {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
+        {"key": "X-Frame-Options", "value": "SAMEORIGIN"}
+      ]}
     ]
   }
 }
